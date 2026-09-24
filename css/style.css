@@ -5,7 +5,7 @@
 :root {
   body {
   background: var(--bg) url("images/mainbg.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-size: auto;
 }
   --bg-card: #141414;
   --bg-hover: #1f1f1f;
