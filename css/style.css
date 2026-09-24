@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  background: var(--bg) url("../images/mainbg.jpg");
+  background: var(--bg) url("images/mainbg.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
