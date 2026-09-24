@@ -13,8 +13,14 @@
 
 :root {
   body {
-  background: var(--bg) url("images/mainbg.jpg") no-repeat center center fixed;
-  background-size: 300px 100px;
+  background: var(--bg) url("../images/mainbg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;                 /* nice fixed effect */
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
 }
   --bg-card: #141414;
   --bg-hover: #1f1f1f;
@@ -69,7 +75,7 @@ img {
 }
 
 .logo {
-  font-family: 'MyDaFontLogo', sans-serif;
+  font-family: 'MyDaFontLogo';
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: -0.5px;
