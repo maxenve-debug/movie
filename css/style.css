@@ -12,16 +12,6 @@
 }
 
 :root {
-  body {
-  background: var(--bg) url("../images/mainbg.jpg") no-repeat center center fixed;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;                 /* nice fixed effect */
-  color: var(--text);
-  line-height: 1.5;
-  min-height: 100vh;
-}
   --bg-card: #141414;
   --bg-hover: #1f1f1f;
   --text: #ffffff;
@@ -44,12 +34,16 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: var(--bg);
+  background: var(--bg) url("../images/mainbg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;                 /* nice fixed effect */
   color: var(--text);
   line-height: 1.5;
   min-height: 100vh;
-}
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
 
 a {
   color: inherit;
