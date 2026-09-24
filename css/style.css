@@ -2,6 +2,15 @@
    MOVIE ARCHIVE – Netflix-style personal archive
    ============================================================ */
 
+@font-face {
+  font-family: 'MyDaFontLogo';
+  /* '../' steps out of the css folder, then we enter the fonts folder */
+  src: url('../fonts/Patchwork Stitchlings.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   body {
   background: var(--bg) url("images/mainbg.jpg") no-repeat center center fixed;
@@ -60,6 +69,7 @@ img {
 }
 
 .logo {
+  font-family: 'MyDaFontLogo', sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: -0.5px;
