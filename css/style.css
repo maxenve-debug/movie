@@ -67,7 +67,7 @@ img {
   justify-content: space-between;
   padding: 16px 4%;
   background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 70%, transparent 100%);
-  backdrop-filter: drop-shadow(11px);
+  backdrop-filter: drop-shadow(16px);
 }
 
 .logo {
