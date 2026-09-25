@@ -255,22 +255,6 @@ img {
   font-weight: 600;
 }
 
-/* ---------- BOTTOM DECORATIVE BAR ---------- */
-.bottom-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 130px;                    /* adjust this height as you like */
-  background-image: url("../images/bottom.png");
-  background-size: auto 100%;       /* keeps characters looking good */
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-color: #000;
-  z-index: 50;
-  pointer-events: none;             /* so it doesn't block clicks */
-}
-
 /* ---------- DETAIL PAGE ---------- */
 .detail-header {
   position: relative;
@@ -528,4 +512,20 @@ img {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ---------- BOTTOM DECORATIVE BAR ---------- */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;                    /* adjust this height as you like */
+  background-image: url("../images/bottom.png");
+  background-size: auto 100%;       /* keeps characters looking good */
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #000;
+  z-index: 50;
+  pointer-events: none;             /* so it doesn't block clicks */
 }
