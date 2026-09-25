@@ -36,9 +36,9 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: var(--bg);
+  background-color: var(--bg); 
   background-image: url("../images/mainbg.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
