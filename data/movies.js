@@ -45,7 +45,7 @@ const movies = [
     id: "barbie",
     title: "Barbie",
     year: 2023,
-    poster: "images/barbie2023/barbie2023.png",
+    poster: "images/posters/barbie2023.png",
     backdrop: "https://picsum.photos/seed/barbiebg/1280/720",
     synopsis: "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. When they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
     genres: ["Comedy", "Adventure", "Fantasy"],
