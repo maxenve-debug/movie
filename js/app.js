@@ -129,7 +129,6 @@ function renderDetailPage() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
   const movie = movies.find(m => m.id === id);
-
   const root = document.getElementById("detail-root");
   if (!root) return;
 
@@ -143,41 +142,53 @@ function renderDetailPage() {
     return;
   }
 
-  // Header with backdrop
+  // ===== HERO / HEADER =====
   const header = document.createElement("div");
   header.className = "detail-header";
   header.style.backgroundImage = `url(${movie.backdrop})`;
 
   header.innerHTML = `
+    <div class="detail-overlay"></div>
     <div class="detail-content">
       <div class="detail-poster">
         <img src="${movie.poster}" alt="${movie.title}"
              onerror="this.src='https://via.placeholder.com/300x450/222/666?text=No+Poster'">
       </div>
+
       <div class="detail-info">
-        <h1>${movie.title}</h1>
+        <h1 class="detail-title">${movie.title}</h1>
+
         <div class="detail-meta">
           <span>${movie.year}</span>
           <span>${movie.runtime}</span>
           <span class="rating">★ ${movie.rating}</span>
-          <span class="genres">
-            ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
-          </span>
         </div>
+
+        <p class="detail-director">Dir. <strong>${movie.director}</strong></p>
+
         <p class="detail-synopsis">${movie.synopsis}</p>
-        <p style="color:var(--text-muted);font-size:0.9rem;margin-bottom:16px">
-          Directed by <strong style="color:var(--text)">${movie.director}</strong>
-        </p>
+
+        <div class="genre-tags">
+          ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
+        </div>
+
         <a href="index.html" class="back-btn">← Back to Archive</a>
+      </div>
+
+      <!-- Optional circular score (you can remove this block if you don't want it) -->
+      <div class="detail-score">
+        <div class="score-circle">
+          <span>${movie.rating}</span>
+        </div>
       </div>
     </div>
   `;
 
-  // Gallery
+  // ===== GALLERY =====
   const gallery = document.createElement("section");
   gallery.className = "gallery-section";
   gallery.innerHTML = `
-    <h2>Gallery</h2>
+    <h2 class="gallery-title">Gallery</h2>
     <div class="gallery-grid">
       ${movie.gallery.map((src, i) => `
         <div class="gallery-item" data-src="${src}">
@@ -191,7 +202,7 @@ function renderDetailPage() {
   root.appendChild(header);
   root.appendChild(gallery);
 
-  // Lightbox
+  // ===== LIGHTBOX (same as before) =====
   const lightbox = document.createElement("div");
   lightbox.className = "lightbox";
   lightbox.innerHTML = `
@@ -219,7 +230,6 @@ function renderDetailPage() {
     lightbox.classList.remove("active");
   });
 
-  // ESC to close
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") lightbox.classList.remove("active");
   });
