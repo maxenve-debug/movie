@@ -37,11 +37,11 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--bg); 
-  /* background-image: url("../images/mainbg.jpg"); 
+  background-image: url("../images/mainbg1.jpg"); 
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
-  background-attachment: fixed; */
+  background-attachment: fixed; 
   color: var(--text);
   line-height: 1.5;
   min-height: 100vh;
@@ -515,7 +515,7 @@ img {
 }
 
 /* ---------- BOTTOM DECORATIVE BAR ---------- */
-.bottom-bar {
+/* .bottom-bar {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -530,4 +530,4 @@ img {
   backdrop-filter: drop-shadow(12px); */
   z-index: 50;
   pointer-events: none;             /* so it doesn't block clicks */
-}
+} */
