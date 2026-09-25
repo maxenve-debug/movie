@@ -36,16 +36,10 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: var(--bg); 
-  background-image: url("../images/mainbg1.png"); 
-  background-size: contain;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-color: var(--bg);  
   color: var(--text);
   line-height: 1.5;
   min-height: 100vh;
-  padding-bottom: 140px;
 } 
 
 a {
@@ -253,6 +247,19 @@ img {
 .movie-card .rating {
   color: #46d369;
   font-weight: 600;
+}
+
+.bottom-bar {
+  width: 100%;
+  margin-top: 60px;          /* space above the characters */
+  line-height: 0;            /* removes extra space under the image */
+}
+
+.bottom-bar img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 /* ---------- DETAIL PAGE ---------- */
@@ -513,21 +520,3 @@ img {
     grid-template-columns: 1fr;
   }
 }
-
-/* ---------- BOTTOM DECORATIVE BAR ---------- */
-  .bottom-bar {
- /* position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 120%;
-  height: 120px;                    /* adjust this height as you like */
- /* background-image: url("../images/bottom.jpeg"); 
-  background-size: contain 100%;       /* keeps characters looking good */
- /* background-position: center bottom;
-/*  background-repeat: no-repeat;
- /* background-color: #0f0f0f;
-  /* background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 70%, transparent 100%);
-  backdrop-filter: drop-shadow(12px); */
-/*  z-index: 50;
- /* pointer-events: none;            /* so it doesn't block clicks */
-} 
