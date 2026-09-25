@@ -12,12 +12,12 @@
 }
 
 :root {
-  --bg: #0a0a0a;
+  --bg: #0f0f0f;
   --bg-card: #141414;
   --bg-hover: #1f1f1f;
-  --text: #ffffff;
+  --text: #e2837d;
   --text-muted: #b3b3b3;
-  --accent: #e50914;
+  --accent: #fadada;
   --accent-hover: #f40612;
   --radius: 6px;
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
@@ -37,11 +37,11 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--bg); 
-  background-image: url("../images/mainbg.jpg");
+  /* background-image: url("../images/mainbg.jpg"); 
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   color: var(--text);
   line-height: 1.5;
   min-height: 100vh;
@@ -60,7 +60,7 @@ img {
 /* ---------- HEADER ---------- */
 .header {
   position: sticky;
-  top: 20;
+  top: 0;
   z-index: 100;
   display: flex;
   align-items: center;
