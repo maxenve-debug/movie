@@ -520,12 +520,12 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 130px;                    /* adjust this height as you like */
+  height: 90px;                    /* adjust this height as you like */
   background-image: url("../images/bottom.png");
   background-size: auto 100%;       /* keeps characters looking good */
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-color: #000;
+  background-color: #0f0f0f;
   z-index: 50;
   pointer-events: none;             /* so it doesn't block clicks */
 }
