@@ -60,7 +60,7 @@ img {
 
 /* ---------- HEADER ---------- */
 .header {
- /* position: sticky;
+  position: sticky;
   top: 0;
   z-index: 100;
   display: flex;
@@ -69,7 +69,7 @@ img {
   padding: 16px 4%;
   background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 70%, transparent 100%);
   backdrop-filter: drop-shadow(12px);
-} */
+} 
 
 .logo {
   font-family: 'MyDaFontLogo';
