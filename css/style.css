@@ -253,7 +253,7 @@ img {
 /* ---------- DETAIL PAGE ---------- */
 .detail-header {
   position: relative;
-  min-height: 78vh;
+  min-height: 82vh;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -428,7 +428,11 @@ img {
 
 /* ---------- GALLERY ---------- */
 .gallery-section {
-  background: transparent;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    color-mix(in srgb, var(--theme-color) 85%, black) 100%
+  );
   padding: 50px 4% 80px;
   max-width: 1200px;
   margin: 0 auto;
