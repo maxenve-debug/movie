@@ -202,7 +202,9 @@ header.innerHTML = `
   gallery.innerHTML = `
   <div class="gallery-header">
     <h2 class="gallery-title">Gallery</h2>
-    <div class="gallery-arrow">↓</div>
+    <div class="gallery-arrow">
+      <i class="fas fa-angle-down"></i>
+    </div>
   </div>
   <div class="gallery-grid">
     ${movie.gallery.map((src, i) => `
