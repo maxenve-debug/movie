@@ -142,62 +142,74 @@ function renderDetailPage() {
     return;
   }
 
-  // ===== HERO / HEADER =====
-  const header = document.createElement("div");
-  header.className = "detail-header";
-  header.style.backgroundImage = `url(${movie.backdrop})`;
+// ===== HERO / HEADER =====
+const header = document.createElement("div");
+header.className = "detail-header";
+header.style.backgroundImage = `url(${movie.backdrop})`;
 
-  header.innerHTML = `
-    <div class="detail-overlay"></div>
-    <div class="detail-content">
-      <div class="detail-poster">
-        <img src="${movie.poster}" alt="${movie.title}"
-             onerror="this.src='https://via.placeholder.com/300x450/222/666?text=No+Poster'">
+// Use the movie's theme color (fallback to dark)
+const theme = movie.themeColor || "#0f0f0f";
+
+header.innerHTML = `
+  <div class="detail-overlay" style="
+    background: linear-gradient(
+      to top,
+      ${theme}ee 0%,
+      ${theme}99 35%,
+      ${theme}33 70%,
+      transparent 100%
+    );
+  "></div>
+
+  <div class="detail-content">
+    <div class="detail-poster">
+      <img src="${movie.poster}" alt="${movie.title}"
+           onerror="this.src='https://via.placeholder.com/300x450/222/666?text=No+Poster'">
+    </div>
+
+    <div class="detail-info">
+      <h1 class="detail-title">${movie.title}</h1>
+
+      <div class="detail-meta">
+        <span>${movie.year}</span>
+        <span>${movie.runtime}</span>
+        <span class="rating">★ ${movie.rating}</span>
       </div>
 
-      <div class="detail-info">
-        <h1 class="detail-title">${movie.title}</h1>
+      <p class="detail-director">Dir. <strong>${movie.director}</strong></p>
 
-        <div class="detail-meta">
-          <span>${movie.year}</span>
-          <span>${movie.runtime}</span>
-          <span class="rating">★ ${movie.rating}</span>
-        </div>
+      <p class="detail-synopsis">${movie.synopsis}</p>
 
-        <p class="detail-director">Dir. <strong>${movie.director}</strong></p>
-
-        <p class="detail-synopsis">${movie.synopsis}</p>
-
-        <div class="genre-tags">
-          ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
-        </div>
-
-        <a href="index.html" class="back-btn">← Back to Archive</a>
-      </div>
-
-      <!-- Optional circular score (you can remove this block if you don't want it) -->
-      <div class="detail-score">
-        <div class="score-circle">
-          <span>${movie.rating}</span>
-        </div>
+      <div class="genre-tags">
+        ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
       </div>
     </div>
-  `;
+
+    <div class="detail-score">
+      <div class="score-circle">
+        <span>${movie.rating}</span>
+      </div>
+    </div>
+  </div>
+`;
 
   // ===== GALLERY =====
   const gallery = document.createElement("section");
   gallery.className = "gallery-section";
   gallery.innerHTML = `
+  <div class="gallery-header">
     <h2 class="gallery-title">Gallery</h2>
-    <div class="gallery-grid">
-      ${movie.gallery.map((src, i) => `
-        <div class="gallery-item" data-src="${src}">
-          <img src="${src}" alt="Still ${i + 1}" loading="lazy"
-               onerror="this.parentElement.style.display='none'">
-        </div>
-      `).join("")}
-    </div>
-  `;
+    <div class="gallery-arrow">↓</div>
+  </div>
+  <div class="gallery-grid">
+    ${movie.gallery.map((src, i) => `
+      <div class="gallery-item" data-src="${src}">
+        <img src="${src}" alt="Still ${i + 1}" loading="lazy"
+             onerror="this.parentElement.style.display='none'">
+      </div>
+    `).join("")}
+  </div>
+`;
 
   root.appendChild(header);
   root.appendChild(gallery);
