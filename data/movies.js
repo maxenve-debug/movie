@@ -46,14 +46,14 @@ const movies = [
     title: "Barbie",
     year: 2023,
     poster: "images/posters/barbie2023.png",
-    backdrop: "https://picsum.photos/seed/barbiebg/1280/720",
+    backdrop: "images/overlays/barbie2023.png",
     synopsis: "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. When they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
     genres: ["Comedy", "Adventure", "Fantasy"],
     director: "Greta Gerwig",
     runtime: "114 min",
     rating: 6.9,
     gallery: [
-      "https://picsum.photos/seed/barbiea/800/450",
+      "images/gallery/barbie2023-1.png",
       "https://picsum.photos/seed/barbieb/800/450",
       "https://picsum.photos/seed/barbiec/800/450"
     ]
