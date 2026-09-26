@@ -147,8 +147,11 @@ const header = document.createElement("div");
 header.className = "detail-header";
 header.style.backgroundImage = `url(${movie.backdrop})`;
 
-// Use the movie's theme color (fallback to dark)
 const theme = movie.themeColor || "#0f0f0f";
+
+// Make the theme color continue to the bottom of the page
+document.body.style.backgroundColor = theme;
+document.documentElement.style.setProperty('--theme-color', theme);
 
 header.innerHTML = `
   <div class="detail-overlay" style="
