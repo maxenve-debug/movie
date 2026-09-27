@@ -277,28 +277,48 @@ img {
   pointer-events: none;
 }
 
-/* ----- TOP: Title + Meta + Line ----- */
-.detail-top {
+/* Container that holds both title and the poster row */
+.detail-main {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 4% 0;
-  text-align: left;
+  padding: 0 4%;
+  
+  /* This pushes everything down */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 88vh;          /* adjust this value to move the whole block up/down */
+  padding-bottom: 50px;
 }
 
-/* .detail-header::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    0deg,
-    var(--bg) 0%,
-    rgba(10,10,10,0.7) 40%,
-    rgba(10,10,10,0.3) 70%,
-    transparent 100%
-  );
-} */
+/* ----- Title + Meta + Line ----- */
+.detail-top {
+  margin-bottom: 28px;
+}
+
+.detail-title {
+  margin: 0 0 12px;
+  line-height: 1;
+}
+
+.detail-title .title-logo {
+  max-width: 380px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 4px 18px rgba(0,0,0,0.5));
+}
+
+/* fallback text title */
+.detail-title:not(:has(img)) {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 4px 25px rgba(0,0,0,0.6);
+}
 
 /* Push the content way down */
 .detail-content {
@@ -327,20 +347,6 @@ img {
   line-height: 1.15;
 } */
 
-.detail-title {
-  margin: 0 0 16px;
-  line-height: 1;
-}
-
-.detail-title .title-logo {
-  max-width: 420px;
-  max-height: 110px;
-  width: auto;
-  height: auto;
-  display: block;
-  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.5));
-}
-
 /* fallback if no logo */
 .detail-title:not(:has(img)) {
   font-size: 4rem;
@@ -364,7 +370,7 @@ img {
   gap: 10px;
   font-size: 0.95rem;
   color: rgba(255,255,255,0.85);
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .detail-meta-top .dot {
@@ -373,27 +379,21 @@ img {
 
 .detail-divider {
   width: 100%;
-  max-width: 600px;
+  max-width: 520px;
   height: 1px;
-  background: rgba(255,255,255,0.4);
-  margin-bottom: 40px;
+  background: rgba(255,255,255,0.45);
 }
 
-/* ----- BOTTOM: Poster + Info + Score ----- */
+/* ----- Poster + Info + Score ----- */
 .detail-content {
-  position: relative;
-  z-index: 2;
   display: flex;
-  gap: 40px;
-  align-items: flex-end;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 4% 50px;
+  gap: 36px;
+  align-items: center;          /* this aligns the score with the poster */
 }
 
 .detail-poster {
   flex-shrink: 0;
-  width: 200px;               /* slightly smaller so score can match */
+  width: 190px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
@@ -407,13 +407,13 @@ img {
 
 .detail-info {
   flex: 1;
-  max-width: 520px;
+  max-width: 500px;
 }
 
 .detail-director {
   font-size: 0.95rem;
   color: rgba(255,255,255,0.75);
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .detail-director strong {
@@ -429,10 +429,6 @@ img {
   display: flex;
   gap: 8px;
 } */
-
-.detail-director strong {
-  color: var(--text);
-}
 
 .genre-tags {
   display: flex;
@@ -450,23 +446,22 @@ img {
 }
 
 .detail-synopsis {
-  font-size: 1rem;
+  font-size: 0.98rem;
   line-height: 1.6;
   color: rgba(255,255,255,0.9);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
-/* Circular score – size closer to poster */
+/* Score – aligned with poster */
 .detail-score {
   margin-left: auto;
-  align-self: center;
 }
 
 .score-circle {
-  width: 110px;               /* bigger, closer to poster proportion */
-  height: 110px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  border: 6px solid #f5c518;
+  border: 5px solid #f5c518;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -474,7 +469,7 @@ img {
 }
 
 .score-circle span {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: white;
 }
