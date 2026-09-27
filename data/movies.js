@@ -50,7 +50,7 @@ const movies = [
   {
     id: "barbie",
     title: "Barbie",
-    titleLogo: "images/titles/barbie-logo.png",
+    titleLogo: "images/logo/barbie2023.png",
     language: "English",
     year: 2023,
     poster: "images/posters/barbie2023.png",
