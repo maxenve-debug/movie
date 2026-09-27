@@ -152,35 +152,27 @@ document.body.style.backgroundColor = theme;
 document.documentElement.style.setProperty('--theme-color', theme);
 
 page.innerHTML = `
-  <div class="detail-overlay" style="
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      transparent 35%,
-      ${theme}40 55%,
-      ${theme}90 75%,
-      ${theme} 100%
-    );
-  "></div>
+  <div class="detail-overlay" style="..."></div>
 
-  <!-- TOP PART: Title + Meta + Line -->
-  <div class="detail-top">
-    <h1 class="detail-title">
-      ${movie.titleLogo 
-        ? `<img src="${movie.titleLogo}" alt="${movie.title}" class="title-logo">`
-        : movie.title}
-    </h1>
+  <div class="detail-main">
+    <!-- Title + Meta + Line -->
+    <div class="detail-top">
+      <h1 class="detail-title">
+        ${movie.titleLogo 
+          ? `<img src="${movie.titleLogo}" alt="${movie.title}" class="title-logo">`
+          : movie.title}
+      </h1>
 
-    <div class="detail-meta-top">
-      <span>${movie.year}</span>
-      <span class="dot">·</span>
-      <span>${movie.runtime}</span>
-      <span class="dot">·</span>
-      <span>Language: ${movie.language || "English"}</span>
+      <div class="detail-meta-top">
+        <span>${movie.year}</span>
+        <span class="dot">·</span>
+        <span>${movie.runtime}</span>
+        <span class="dot">·</span>
+        <span>Language: ${movie.language || "English"}</span>
+      </div>
+
+      <div class="detail-divider"></div>
     </div>
-
-    <div class="detail-divider"></div>
-  </div>
 
   <!-- BOTTOM PART: Poster + Info + Score -->
   <div class="detail-content">
