@@ -155,9 +155,10 @@ page.innerHTML = `
   <div class="detail-overlay" style="
     background: linear-gradient(
       to bottom,
-      ${theme}cc 0%,
-      ${theme}99 30%,
-      ${theme}ee 70%,
+      transparent 0%,
+      transparent 40%,
+      ${theme}55 65%,
+      ${theme}cc 85%,
       ${theme} 100%
     );
   "></div>
