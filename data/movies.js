@@ -9,6 +9,8 @@ const movies = [
   {
     id: "dune-part-two",
     title: "Dune: Part Two",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2024,
     poster: "https://picsum.photos/seed/dune2/300/450",
     backdrop: "https://picsum.photos/seed/dune2bg/1280/720",
@@ -28,6 +30,8 @@ const movies = [
   {
     id: "oppenheimer",
     title: "Oppenheimer",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2023,
     poster: "https://picsum.photos/seed/oppen/300/450",
     backdrop: "https://picsum.photos/seed/oppenbg/1280/720",
@@ -46,6 +50,8 @@ const movies = [
   {
     id: "barbie",
     title: "Barbie",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2023,
     poster: "images/posters/barbie2023.png",
     backdrop: "images/overlays/barbie2023.png",
@@ -64,6 +70,8 @@ const movies = [
   {
     id: "everything-everywhere",
     title: "Everything Everywhere All at Once",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2022,
     poster: "https://picsum.photos/seed/eeaao/300/450",
     backdrop: "https://picsum.photos/seed/eeaaobg/1280/720",
@@ -83,6 +91,8 @@ const movies = [
   {
     id: "top-gun-maverick",
     title: "Top Gun: Maverick",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2022,
     poster: "https://picsum.photos/seed/topgun/300/450",
     backdrop: "https://picsum.photos/seed/topgunbg/1280/720",
@@ -101,6 +111,8 @@ const movies = [
   {
     id: "parasite",
     title: "Parasite",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2019,
     poster: "https://picsum.photos/seed/parasite/300/450",
     backdrop: "https://picsum.photos/seed/parasitebg/1280/720",
@@ -119,6 +131,8 @@ const movies = [
   {
     id: "joker",
     title: "Joker",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2019,
     poster: "https://picsum.photos/seed/joker/300/450",
     backdrop: "https://picsum.photos/seed/jokerbg/1280/720",
@@ -137,6 +151,8 @@ const movies = [
   {
     id: "interstellar",
     title: "Interstellar",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2014,
     poster: "https://picsum.photos/seed/interstellar/300/450",
     backdrop: "https://picsum.photos/seed/interstellarbg/1280/720",
@@ -156,6 +172,8 @@ const movies = [
   {
     id: "whiplash",
     title: "Whiplash",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2014,
     poster: "https://picsum.photos/seed/whiplash/300/450",
     backdrop: "https://picsum.photos/seed/whiplashbg/1280/720",
@@ -174,6 +192,8 @@ const movies = [
   {
     id: "inception",
     title: "Inception",
+    titleLogo: "images/titles/barbie-logo.png",
+    language: "English",
     year: 2010,
     poster: "https://picsum.photos/seed/inception/300/450",
     backdrop: "https://picsum.photos/seed/inceptionbg/1280/720",
