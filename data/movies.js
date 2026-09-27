@@ -57,8 +57,8 @@ const movies = [
     rating: 6.9,
     gallery: [
       "images/gallery/barbie2023-1.png",
-      "https://picsum.photos/seed/barbieb/800/450",
-      "https://picsum.photos/seed/barbiec/800/450"
+      "images/gallery/barbie2023-2.png",
+      "images/gallery/barbie2023-3.png"
     ]
   },
   {
