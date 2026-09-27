@@ -156,13 +156,33 @@ page.innerHTML = `
     background: linear-gradient(
       to bottom,
       transparent 0%,
-      transparent 40%,
-      ${theme}55 65%,
-      ${theme}cc 85%,
+      transparent 35%,
+      ${theme}40 55%,
+      ${theme}90 75%,
       ${theme} 100%
     );
   "></div>
 
+  <!-- TOP PART: Title + Meta + Line -->
+  <div class="detail-top">
+    <h1 class="detail-title">
+      ${movie.titleLogo 
+        ? `<img src="${movie.titleLogo}" alt="${movie.title}" class="title-logo">`
+        : movie.title}
+    </h1>
+
+    <div class="detail-meta-top">
+      <span>${movie.year}</span>
+      <span class="dot">·</span>
+      <span>${movie.runtime}</span>
+      <span class="dot">·</span>
+      <span>Language: ${movie.language || "English"}</span>
+    </div>
+
+    <div class="detail-divider"></div>
+  </div>
+
+  <!-- BOTTOM PART: Poster + Info + Score -->
   <div class="detail-content">
     <div class="detail-poster">
       <img src="${movie.poster}" alt="${movie.title}"
@@ -170,16 +190,7 @@ page.innerHTML = `
     </div>
 
     <div class="detail-info">
-      <h1 class="detail-title">${movie.title}</h1>
-
-      <div class="detail-meta">
-        <span>${movie.year}</span>
-        <span>${movie.runtime}</span>
-        <span class="rating">★ ${movie.rating}</span>
-      </div>
-
       <p class="detail-director">Dir. <strong>${movie.director}</strong></p>
-
       <p class="detail-synopsis">${movie.synopsis}</p>
 
       <div class="genre-tags">
@@ -194,13 +205,11 @@ page.innerHTML = `
     </div>
   </div>
 
-  <!-- Gallery is now INSIDE the same section -->
+  <!-- Gallery -->
   <div class="gallery-section">
     <div class="gallery-header">
       <h2 class="gallery-title">Gallery</h2>
-      <div class="gallery-arrow">
-        <i class="fas fa-angle-down"></i>
-      </div>
+      <div class="gallery-arrow"><i class="fas fa-angle-down"></i></div>
     </div>
     <div class="gallery-grid">
       ${movie.gallery.map((src, i) => `
