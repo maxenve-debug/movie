@@ -387,7 +387,7 @@ img {
   max-width: 520px;
 }
 
-.back-btn {
+/*.back-btn {
   display: inline-block;
   padding: 10px 20px;
   background: rgba(255,255,255,0.1);
@@ -400,7 +400,7 @@ img {
 
 .back-btn:hover {
   background: rgba(255,255,255,0.2);
-}
+} */
 
 /* Circular score (optional) */
 .detail-score {
@@ -428,11 +428,7 @@ img {
 
 /* ---------- GALLERY ---------- */
 .gallery-section {
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    color-mix(in srgb, var(--theme-color) 85%, black) 100%
-  );
+  background: transparent;
   padding: 50px 4% 80px;
   max-width: 1200px;
   margin: 0 auto;
