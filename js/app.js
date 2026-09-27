@@ -152,7 +152,16 @@ document.body.style.backgroundColor = theme;
 document.documentElement.style.setProperty('--theme-color', theme);
 
 page.innerHTML = `
-  <div class="detail-overlay" style="..."></div>
+  <div class="detail-overlay" style="
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 35%,
+      ${theme}40 55%,
+      ${theme}90 75%,
+      ${theme} 100%
+    );
+  "></div>
 
   <div class="detail-main">
     <!-- Title + Meta + Line -->
