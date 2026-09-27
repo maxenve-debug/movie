@@ -257,7 +257,6 @@ img {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  /* remove background-attachment: fixed for now if you have it */
 }
 
 /* .detail-header {
@@ -276,6 +275,16 @@ img {
   inset: 0;
   z-index: 1;
   pointer-events: none;
+}
+
+/* ----- TOP: Title + Meta + Line ----- */
+.detail-top {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 4% 0;
+  text-align: left;
 }
 
 /* .detail-header::after {
@@ -305,30 +314,10 @@ img {
   min-height: 90vh;            /* this forces the content to the bottom */
 }
 
-/* Content sits above the overlay */
-/* .detail-content,
-.gallery-section {
-  position: relative;
-  z-index: 2;
-} */
-
-.detail-poster {
-  flex-shrink: 0;
-  width: 180px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
-}
-
 .detail-poster img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.detail-info {
-  flex: 1;
-  max-width: 600px;
 }
 
 /* .detail-info h1 {
@@ -339,21 +328,96 @@ img {
 } */
 
 .detail-title {
-  font-size: 2.6rem;
-  font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 12px;
-  color: #fff;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+  margin: 0 0 16px;
+  line-height: 1;
 }
 
-.detail-meta {
+.detail-title .title-logo {
+  max-width: 420px;
+  max-height: 110px;
+  width: auto;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.5));
+}
+
+/* fallback if no logo */
+.detail-title:not(:has(img)) {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 4px 30px rgba(0,0,0,0.6);
+}
+
+/* .detail-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 16px;
   font-size: 0.95rem;
   color: var(--text-muted);
+} */
+
+.detail-meta-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 18px;
+}
+
+.detail-meta-top .dot {
+  opacity: 0.5;
+}
+
+.detail-divider {
+  width: 100%;
+  max-width: 600px;
+  height: 1px;
+  background: rgba(255,255,255,0.4);
+  margin-bottom: 40px;
+}
+
+/* ----- BOTTOM: Poster + Info + Score ----- */
+.detail-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4% 50px;
+}
+
+.detail-poster {
+  flex-shrink: 0;
+  width: 200px;               /* slightly smaller so score can match */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+}
+
+.detail-poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.detail-info {
+  flex: 1;
+  max-width: 520px;
+}
+
+.detail-director {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 14px;
+}
+
+.detail-director strong {
+  color: white;
 }
 
 .detail-meta .rating {
@@ -366,12 +430,6 @@ img {
   gap: 8px;
 } */
 
-.detail-director {
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  margin-bottom: 16px;
-}
-
 .detail-director strong {
   color: var(--text);
 }
@@ -380,75 +438,54 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 28px;
 }
 
 .genre-tag {
-  display: inline-block;
   padding: 5px 14px;
-  border: 1px solid rgba(255,255,255,0.25);
+  border: 1px solid rgba(255,255,255,0.3);
   border-radius: 20px;
   font-size: 0.85rem;
-  color: #eee;
-  background: rgba(255,255,255,0.05);
+  color: white;
+  background: rgba(255,255,255,0.08);
 }
 
 .detail-synopsis {
-  font-size: 0.98rem;
+  font-size: 1rem;
   line-height: 1.6;
-  color: #ddd;
+  color: rgba(255,255,255,0.9);
   margin-bottom: 20px;
-  max-width: 520px;
 }
 
-/*.back-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 6px;
-  color: #fff;
-  font-size: 0.9rem;
-  transition: background 0.2s;
-}
-
-.back-btn:hover {
-  background: rgba(255,255,255,0.2);
-} */
-
-/* Circular score (optional) */
+/* Circular score – size closer to poster */
 .detail-score {
   margin-left: auto;
   align-self: center;
 }
 
 .score-circle {
-  width: 76px;
-  height: 76px;
+  width: 110px;               /* bigger, closer to poster proportion */
+  height: 110px;
   border-radius: 50%;
-  border-width: 4px;
-  border: 5px solid #f5c518;
+  border: 6px solid #f5c518;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.35);
 }
 
 .score-circle span {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   font-weight: 700;
-  color: #fff;
+  color: white;
 }
 
-/* ---------- GALLERY ---------- */
-/* Gallery stays inside the same page */
+/* Gallery */
 .gallery-section {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 4% 80px;
-  background: transparent;
+  padding: 10px 4% 80px;
 }
 
 .gallery-header {
@@ -456,25 +493,19 @@ img {
   margin-bottom: 28px;
 }
 
-/* .gallery-section h2 {
-  font-size: 1.4rem;
-  margin-bottom: 16px;
-} */
-
 .gallery-title {
-  font-size: 1.15rem;          /* smaller */
+  font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.7);
   margin: 0;
 }
 
 .gallery-arrow {
   margin-top: 6px;
   font-size: 1.1rem;
-  color: var(--text-muted);
-  opacity: 0.75;
+  color: rgba(255,255,255,0.6);
 }
 
 .gallery-grid {
