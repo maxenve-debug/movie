@@ -142,25 +142,23 @@ function renderDetailPage() {
     return;
   }
 
-// ===== HERO / HEADER =====
-const header = document.createElement("div");
-header.className = "detail-header";
-header.style.backgroundImage = `url(${movie.backdrop})`;
+// ===== ONE BIG SECTION (backdrop + info + gallery) =====
+const page = document.createElement("div");
+page.className = "detail-page";
+page.style.backgroundImage = `url(${movie.backdrop})`;
 
 const theme = movie.themeColor || "#0f0f0f";
-
-// Make the theme color continue to the bottom of the page
 document.body.style.backgroundColor = theme;
 document.documentElement.style.setProperty('--theme-color', theme);
 
-header.innerHTML = `
+page.innerHTML = `
   <div class="detail-overlay" style="
     background: linear-gradient(
-      to top,
-      ${theme}ee 0%,
-      ${theme}99 35%,
-      ${theme}33 70%,
-      transparent 100%
+      to bottom,
+      ${theme}cc 0%,
+      ${theme}99 30%,
+      ${theme}ee 70%,
+      ${theme} 100%
     );
   "></div>
 
@@ -194,30 +192,27 @@ header.innerHTML = `
       </div>
     </div>
   </div>
-`;
 
-  // ===== GALLERY =====
-  const gallery = document.createElement("section");
-  gallery.className = "gallery-section";
-  gallery.innerHTML = `
-  <div class="gallery-header">
-    <h2 class="gallery-title">Gallery</h2>
-    <div class="gallery-arrow">
-      <i class="fas fa-angle-down"></i>
+  <!-- Gallery is now INSIDE the same section -->
+  <div class="gallery-section">
+    <div class="gallery-header">
+      <h2 class="gallery-title">Gallery</h2>
+      <div class="gallery-arrow">
+        <i class="fas fa-angle-down"></i>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      ${movie.gallery.map((src, i) => `
+        <div class="gallery-item" data-src="${src}">
+          <img src="${src}" alt="Still ${i + 1}" loading="lazy"
+               onerror="this.parentElement.style.display='none'">
+        </div>
+      `).join("")}
     </div>
   </div>
-  <div class="gallery-grid">
-    ${movie.gallery.map((src, i) => `
-      <div class="gallery-item" data-src="${src}">
-        <img src="${src}" alt="Still ${i + 1}" loading="lazy"
-             onerror="this.parentElement.style.display='none'">
-      </div>
-    `).join("")}
-  </div>
 `;
 
-  root.appendChild(header);
-  root.appendChild(gallery);
+root.appendChild(page);
 
   // ===== LIGHTBOX (same as before) =====
   const lightbox = document.createElement("div");
