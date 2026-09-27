@@ -65,9 +65,12 @@ const movies = [
       "images/gallery/barbie2023-1.png",
       "images/gallery/barbie2023-2.png",
       "images/gallery/barbie2023-3.png",
-      "images/gallery/barbie2023-4.png",
+      "images/gallery/barbie2023-6.png",
       "images/gallery/barbie2023-5.png",
-      "images/gallery/barbie2023-6.png"
+      "images/gallery/barbie2023-4.png",
+      "images/gallery/barbie2023-7.png",
+      "images/gallery/barbie2023-8.png",
+      "images/gallery/barbie2023-9.png",
     ]
   },
   {
