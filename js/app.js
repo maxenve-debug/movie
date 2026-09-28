@@ -158,13 +158,13 @@ page.innerHTML = `
   <!-- Gradient that fades into solid theme -->
   <div class="detail-overlay" style="
     background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      transparent 35%,
-      ${theme}40 55%,
-      ${theme}90 78%,
-      ${theme} 100%
-    );
+  to bottom,
+  transparent 0%,
+  transparent 45%,
+  ${theme}30 62%,
+  ${theme}75 82%,
+  ${theme} 100%
+);
   "></div>
 
   <div class="detail-main">
