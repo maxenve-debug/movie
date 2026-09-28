@@ -160,7 +160,7 @@ page.innerHTML = `
         transparent 40%,
         ${theme}25 58%,
         ${theme}70 75%,
-        ${theme} 92%
+        ${theme} 99%
       ),
       url(${movie.backdrop});
   "></div>
