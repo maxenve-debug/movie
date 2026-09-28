@@ -152,26 +152,29 @@ document.body.style.backgroundColor = theme;
 document.documentElement.style.setProperty('--theme-color', theme);
 
 page.innerHTML = `
+  <!-- Limited-height backdrop -->
+  <div class="detail-hero" style="background-image: url(${movie.backdrop})"></div>
+
+  <!-- Gradient that fades into solid theme -->
   <div class="detail-overlay" style="
     background: linear-gradient(
       to bottom,
       transparent 0%,
       transparent 35%,
       ${theme}40 55%,
-      ${theme}90 75%,
+      ${theme}90 78%,
       ${theme} 100%
     );
   "></div>
 
   <div class="detail-main">
-    <!-- Title + Meta + Line -->
+    <!-- Title + Meta (left side, over the image) -->
     <div class="detail-top">
       <h1 class="detail-title">
         ${movie.titleLogo 
           ? `<img src="${movie.titleLogo}" alt="${movie.title}" class="title-logo">`
           : movie.title}
       </h1>
-
       <div class="detail-meta-top">
         <span>${movie.year}</span>
         <span class="dot">·</span>
@@ -179,34 +182,31 @@ page.innerHTML = `
         <span class="dot">·</span>
         <span>Language: ${movie.language || "English"}</span>
       </div>
-
       <div class="detail-divider"></div>
     </div>
 
-  <!-- BOTTOM PART: Poster + Info + Score -->
-  <div class="detail-content">
-    <div class="detail-poster">
-      <img src="${movie.poster}" alt="${movie.title}"
-           onerror="this.src='https://via.placeholder.com/300x450/222/666?text=No+Poster'">
-    </div>
-
-    <div class="detail-info">
-      <p class="detail-director">Dir. <strong>${movie.director}</strong></p>
-      <p class="detail-synopsis">${movie.synopsis}</p>
-
-      <div class="genre-tags">
-        ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
+    <!-- Poster + Info + Score (mostly in solid colour) -->
+    <div class="detail-content">
+      <div class="detail-poster">
+        <img src="${movie.poster}" alt="${movie.title}"
+             onerror="this.src='https://via.placeholder.com/300x450/222/666?text=No+Poster'">
       </div>
-    </div>
-
-    <div class="detail-score">
-      <div class="score-circle">
-        <span>${movie.rating}</span>
+      <div class="detail-info">
+        <p class="detail-director">Dir. <strong>${movie.director}</strong></p>
+        <p class="detail-synopsis">${movie.synopsis}</p>
+        <div class="genre-tags">
+          ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
+        </div>
+      </div>
+      <div class="detail-score">
+        <div class="score-circle">
+          <span>${movie.rating}</span>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Gallery -->
+  <!-- Gallery sits on solid theme colour -->
   <div class="gallery-section">
     <div class="gallery-header">
       <h2 class="gallery-title">Gallery</h2>
