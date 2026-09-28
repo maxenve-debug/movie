@@ -257,37 +257,38 @@ img {
   background: none;               /* important */
 }
 
-/* Limited backdrop only */
+/* Backdrop stays limited */
 .detail-hero {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 70vh;
+  height: 68vh;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   z-index: 0;
 }
 
-/* Soft gradient that ends in solid theme */
+/* Important: make the overlay taller than the hero so the fade is complete */
 .detail-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 82vh;
+  height: 100vh;          /* covers well past the hero */
   z-index: 1;
   pointer-events: none;
 }
-/* Content */
+
+/* Content position */
 .detail-main {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5% 40px;
-  padding-top: 40vh;
+  padding-top: 38vh;
 }
 
 /* ----- Title + Meta (closer to left) ----- */
@@ -419,14 +420,14 @@ img {
   color: white;
 }
 
-/* Gallery – pure solid theme colour */
+/* Gallery – pure solid (no image showing through) */
 .gallery-section {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 5% 90px;
-  background: transparent;        /* lets the body colour show through */
+  padding: 30px 5% 90px;
+  background: transparent;
 }
 
 .gallery-header {
