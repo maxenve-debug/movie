@@ -145,26 +145,23 @@ function renderDetailPage() {
 // ===== ONE BIG SECTION (backdrop + info + gallery) =====
 const page = document.createElement("div");
 page.className = "detail-page";
-page.style.backgroundImage = `url(${movie.backdrop})`;
 
 const theme = movie.themeColor || "#0f0f0f";
 document.body.style.backgroundColor = theme;
 document.documentElement.style.setProperty('--theme-color', theme);
 
 page.innerHTML = `
-  <!-- Limited-height backdrop -->
-  <div class="detail-hero" style="background-image: url(${movie.backdrop})"></div>
+ <div class="detail-hero" style="background-image: url(${movie.backdrop})"></div>
 
-  <!-- Gradient that fades into solid theme -->
   <div class="detail-overlay" style="
     background: linear-gradient(
-  to bottom,
-  transparent 0%,
-  transparent 45%,
-  ${theme}30 62%,
-  ${theme}75 82%,
-  ${theme} 100%
-);
+      to bottom,
+      transparent 0%,
+      transparent 40%,
+      ${theme}35 58%,
+      ${theme}85 78%,
+      ${theme} 100%
+    );
   "></div>
 
   <div class="detail-main">
