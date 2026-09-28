@@ -256,39 +256,38 @@ img {
   /* body background is already the theme colour */
 }
 
-/* Limited-height backdrop – no full-page zoom */
+/* Limited-height backdrop */
 .detail-hero {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 68vh;                 /* ← matches Lady Bird height */
+  height: 72vh;               /* slightly taller so more image stays visible */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   z-index: 0;
 }
 
-/* Gradient overlay */
+/* Gradient overlay – now softer and lower */
 .detail-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   z-index: 1;
   pointer-events: none;
 }
 
-/* Main content container */
+/* Push content a bit lower so it sits more in the soft fade */
 .detail-main {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5% 50px;
-  /* this pushes title + poster into the correct vertical zone */
-  padding-top: 38vh;
+  padding-top: 42vh;          /* was 38vh → give more image room above */
 }
 
 /* ----- Title + Meta (closer to left) ----- */
