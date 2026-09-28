@@ -253,38 +253,48 @@ img {
 /* ---------- DETAIL PAGE ---------- */
 .detail-page {
   position: relative;
-  min-height: 100vh;
+  /* body background is already the theme colour */
+}
+
+/* Limited-height backdrop – no full-page zoom */
+.detail-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 68vh;                 /* ← matches Lady Bird height */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  z-index: 0;
 }
 
+/* Gradient overlay */
 .detail-overlay {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
   z-index: 1;
   pointer-events: none;
 }
 
-/* Container that holds both title and the poster row */
+/* Main content container */
 .detail-main {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 4%;
-  
-  /* This pushes everything down */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: 88vh;          /* adjust this value to move the whole block up/down */
-  padding-bottom: 50px;
+  padding: 0 5% 50px;
+  /* this pushes title + poster into the correct vertical zone */
+  padding-top: 38vh;
 }
 
-/* ----- Title + Meta + Line ----- */
+/* ----- Title + Meta (closer to left) ----- */
 .detail-top {
-  margin-bottom: 10px;
+  margin-bottom: 36px;
+  max-width: 580px;             /* keeps it left-aligned */
 }
 
 .detail-title {
@@ -293,45 +303,17 @@ img {
 }
 
 .detail-title .title-logo {
-  max-width: 380px;
-  max-height: 100px;
+  max-width: 360px;
+  max-height: 95px;
   width: auto;
   height: auto;
   display: block;
-  filter: drop-shadow(0 4px 18px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.55));
 }
 
 /* fallback text title */
 .detail-title:not(:has(img)) {
-  font-size: 3.4rem;
-  font-weight: 700;
-  color: white;
-  text-shadow: 0 4px 25px rgba(0,0,0,0.6);
-}
-
-/* Push the content way down */
-.detail-content {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  gap: 40px;
-  align-items: flex-end;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 4% 60px;          /* small bottom padding */
-  min-height: 90vh;            /* this forces the content to the bottom */
-}
-
-.detail-poster img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* fallback if no logo */
-.detail-title:not(:has(img)) {
-  font-size: 4rem;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
   font-weight: 700;
   color: white;
   text-shadow: 0 4px 30px rgba(0,0,0,0.6);
@@ -342,8 +324,8 @@ img {
   align-items: center;
   gap: 10px;
   font-size: 0.95rem;
-  color: rgba(255,255,255,0.85);
-  margin-bottom: 16px;
+  color: rgba(255,255,255,0.88);
+  margin-bottom: 14px;
 }
 
 .detail-meta-top .dot {
@@ -352,24 +334,24 @@ img {
 
 .detail-divider {
   width: 100%;
-  max-width: 520px;
+  max-width: 420px;
   height: 1px;
-  background: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.4);
 }
 
 /* ----- Poster + Info + Score ----- */
 .detail-content {
   display: flex;
   gap: 36px;
-  align-items: center;          /* this aligns the score with the poster */
+  align-items: center;
 }
 
 .detail-poster {
   flex-shrink: 0;
-  width: 190px;
-  border-radius: 8px;
+  width: 148px;                 /* smaller like Lady Bird */
+  border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.45);
 }
 
 .detail-poster img {
@@ -380,22 +362,24 @@ img {
 
 .detail-info {
   flex: 1;
-  max-width: 500px;
+  max-width: 520px;
 }
 
 .detail-director {
   font-size: 0.95rem;
   color: rgba(255,255,255,0.75);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .detail-director strong {
   color: white;
 }
 
-.detail-meta .rating {
-  color: #f5c518;
-  font-weight: 600;
+.detail-synopsis {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.92);
+  margin-bottom: 18px;
 }
 
 .genre-tags {
@@ -406,49 +390,44 @@ img {
 
 .genre-tag {
   padding: 5px 14px;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid rgba(255,255,255,0.28);
   border-radius: 20px;
   font-size: 0.85rem;
   color: white;
   background: rgba(255,255,255,0.08);
 }
 
-.detail-synopsis {
-  font-size: 0.98rem;
-  line-height: 1.6;
-  color: rgba(255,255,255,0.9);
-  margin-bottom: 18px;
-}
-
-/* Score – aligned with poster */
+/* Score – larger and more to the right */
 .detail-score {
   margin-left: auto;
+  padding-right: 12px;
 }
 
 .score-circle {
-  width: 100px;
-  height: 100px;
+  width: 118px;
+  height: 118px;
   border-radius: 50%;
   border: 5px solid #f5c518;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.3);
 }
 
 .score-circle span {
-  font-size: 1.9rem;
+  font-size: 2.15rem;
   font-weight: 700;
   color: white;
 }
 
-/* Gallery */
+/* Gallery – continues solid theme colour */
 .gallery-section {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 4% 80px;
+  padding: 40px 5% 90px;
+  background: transparent;
 }
 
 .gallery-header {
@@ -457,7 +436,7 @@ img {
 }
 
 .gallery-title {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -468,7 +447,7 @@ img {
 .gallery-arrow {
   margin-top: 6px;
   font-size: 1.1rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.55);
 }
 
 .gallery-grid {
@@ -536,39 +515,47 @@ img {
   line-height: 1;
 }
 
-/* .lightbox-close:hover {
-  opacity: 1;
-} */
-
-/* ---------- EMPTY / NO RESULTS ---------- */
-.no-results {
-  text-align: center;
-  padding: 80px 20px;
-  color: var(--text-muted);
-  font-size: 1.1rem;
-}
-
 /* ========== RESPONSIVE ========== */
 @media (max-width: 900px) {
+  .detail-hero {
+    height: 52vh;
+  }
+
+  .detail-overlay {
+    height: 65vh;
+  }
+
+  .detail-main {
+    padding-top: 30vh;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
   .detail-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 24px;
   }
 
   .detail-poster {
-    width: 180px;
-  }
-
-  .detail-title {
-    font-size: 2.4rem;
+    width: 140px;
   }
 
   .detail-score {
-    margin: 20px 0 0;
+    margin: 0;
+    padding-right: 0;
   }
 
-  .detail-meta,
+  .score-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .score-circle span {
+    font-size: 1.8rem;
+  }
+
   .genre-tags {
     justify-content: center;
   }
