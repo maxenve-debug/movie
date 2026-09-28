@@ -251,43 +251,43 @@ img {
 }
 
 /* ---------- DETAIL PAGE ---------- */
+/* The page itself should have NO background image */
 .detail-page {
   position: relative;
-  /* body background is already the theme colour */
+  background: none;               /* important */
 }
 
-/* Limited-height backdrop */
+/* Limited backdrop only */
 .detail-hero {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 72vh;               /* slightly taller so more image stays visible */
+  height: 70vh;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   z-index: 0;
 }
 
-/* Gradient overlay – now softer and lower */
+/* Soft gradient that ends in solid theme */
 .detail-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 85vh;
+  height: 82vh;
   z-index: 1;
   pointer-events: none;
 }
-
-/* Push content a bit lower so it sits more in the soft fade */
+/* Content */
 .detail-main {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 5% 50px;
-  padding-top: 42vh;          /* was 38vh → give more image room above */
+  padding: 0 5% 40px;
+  padding-top: 40vh;
 }
 
 /* ----- Title + Meta (closer to left) ----- */
@@ -419,14 +419,14 @@ img {
   color: white;
 }
 
-/* Gallery – continues solid theme colour */
+/* Gallery – pure solid theme colour */
 .gallery-section {
   position: relative;
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 5% 90px;
-  background: transparent;
+  background: transparent;        /* lets the body colour show through */
 }
 
 .gallery-header {
