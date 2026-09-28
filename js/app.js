@@ -155,13 +155,14 @@ page.innerHTML = `
 
   <div class="detail-overlay" style="
     background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      transparent 40%,
-      ${theme}35 58%,
-      ${theme}85 78%,
-      ${theme} 100%
-    );
+  to bottom,
+  transparent 0%,
+  transparent 30%,
+  ${theme}20 50%,
+  ${theme}55 68%,
+  ${theme}90 85%,
+  ${theme} 100%
+);
   "></div>
 
   <div class="detail-main">
