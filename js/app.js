@@ -151,22 +151,22 @@ document.body.style.backgroundColor = theme;
 document.documentElement.style.setProperty('--theme-color', theme);
 
 page.innerHTML = `
- <div class="detail-hero" style="background-image: url(${movie.backdrop})"></div>
-
-  <div class="detail-overlay" style="
-    background: linear-gradient(
-  to bottom,
-  transparent 0%,
-  transparent 30%,
-  ${theme}20 50%,
-  ${theme}55 68%,
-  ${theme}90 85%,
-  ${theme} 100%
-);
+  <!-- Single hero that contains both the image AND the soft gradient -->
+  <div class="detail-hero" style="
+    background-image: 
+      linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 40%,
+        ${theme}25 58%,
+        ${theme}70 75%,
+        ${theme} 92%
+      ),
+      url(${movie.backdrop});
   "></div>
 
   <div class="detail-main">
-    <!-- Title + Meta (left side, over the image) -->
+    <!-- Title + Meta -->
     <div class="detail-top">
       <h1 class="detail-title">
         ${movie.titleLogo 
@@ -183,7 +183,7 @@ page.innerHTML = `
       <div class="detail-divider"></div>
     </div>
 
-    <!-- Poster + Info + Score (mostly in solid colour) -->
+    <!-- Poster + Info + Score -->
     <div class="detail-content">
       <div class="detail-poster">
         <img src="${movie.poster}" alt="${movie.title}"
@@ -204,7 +204,6 @@ page.innerHTML = `
     </div>
   </div>
 
-  <!-- Gallery sits on solid theme colour -->
   <div class="gallery-section">
     <div class="gallery-header">
       <h2 class="gallery-title">Gallery</h2>
