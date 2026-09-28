@@ -259,17 +259,6 @@ img {
   background-repeat: no-repeat;
 }
 
-/* .detail-header {
-  position: relative;
-  min-height: 82vh;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-end;
-  padding: 40px 4% 50px;
-} */
-
 .detail-overlay {
   position: absolute;
   inset: 0;
@@ -340,13 +329,6 @@ img {
   display: block;
 }
 
-/* .detail-info h1 {
-  font-size: 2.6rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-  line-height: 1.15;
-} */
-
 /* fallback if no logo */
 .detail-title:not(:has(img)) {
   font-size: 4rem;
@@ -354,15 +336,6 @@ img {
   color: white;
   text-shadow: 0 4px 30px rgba(0,0,0,0.6);
 }
-
-/* .detail-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 16px;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-} */
 
 .detail-meta-top {
   display: flex;
@@ -424,11 +397,6 @@ img {
   color: #f5c518;
   font-weight: 600;
 }
-
-/* .detail-meta .genres {
-  display: flex;
-  gap: 8px;
-} */
 
 .genre-tags {
   display: flex;
