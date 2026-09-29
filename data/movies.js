@@ -55,7 +55,7 @@ const movies = [
     year: 2023,
     poster: "images/posters/barbie2023.png",
     backdrop: "images/overlays/barbie2023.png",
-    themeColor: "#e52d62",
+    themeColor: "#573013",
     synopsis: "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. When they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
     genres: ["Comedy", "Adventure", "Fantasy"],
     director: "Greta Gerwig",
