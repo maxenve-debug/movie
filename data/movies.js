@@ -9,7 +9,7 @@ const movies = [
   {
     id: "spy-x-family-code-white",
     title: "SPY X FAMILY CODE: White",
-    titleLogo: "images/titles/spyxfamilycodewhite-logo.png",
+    titleLogo: "images/logo/spyxfamilycodewhite2023.png",
     language: "Japanese",
     year: 2023,
     poster: "images/posters/spyxfamily2023.png",
@@ -22,9 +22,14 @@ const movies = [
     rating: 7.2,
     gallery: [
       "images/gallery/spyxfamily2023-1.png",
-      "https://picsum.photos/seed/dune2b/800/450",
-      "https://picsum.photos/seed/dune2c/800/450",
-      "https://picsum.photos/seed/dune2d/800/450"
+      "images/gallery/spyxfamily2023-2.png",
+      "images/gallery/spyxfamily2023-3.png",
+      "images/gallery/spyxfamily2023-4.png",
+      "images/gallery/spyxfamily2023-5.png",
+      "images/gallery/spyxfamily2023-6.png",
+      "images/gallery/spyxfamily2023-7.png",
+      "images/gallery/spyxfamily2023-8.png",
+      "images/gallery/spyxfamily2023-9.png"
     ]
   },
   {
