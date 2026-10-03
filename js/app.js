@@ -155,14 +155,14 @@ page.innerHTML = `
   <div class="detail-hero" style="
     background-image: 
       linear-gradient(
-        to bottom,
-        transparent 0%,
-        transparent 40%,
-        ${theme}25 58%,
-        ${theme}50 72%,
-        ${theme}75 85%,
-        ${theme} 100%
-      ),
+  to bottom,
+  transparent 0%,
+  transparent 68%,        /* stay clear much longer */
+  ${theme}25 80%,         /* start fading only near the bottom */
+  ${theme}55 90%,
+  ${theme}85 96%,
+  ${theme} 100%
+)
       url(${movie.backdrop});
   "></div>
 
