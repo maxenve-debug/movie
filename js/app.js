@@ -156,13 +156,12 @@ page.innerHTML = `
     background-image: 
       linear-gradient(
         to bottom,
-          transparent 0%,
-          transparent 40%,        
-          ${theme}25 55%,         
-          ${theme}45 70%,
-          ${theme}65 85%,
-          ${theme}85 95%,
-          ${theme} 100%
+        transparent 0%,
+        transparent 50%,
+        ${theme}15 65%,
+        ${theme}40 78%,
+        ${theme}70 88%,
+        ${theme} 100%
         ),
       url(${movie.backdrop});
   "></div>
