@@ -158,7 +158,7 @@ page.innerHTML = `
         to bottom,
           transparent 0%,
           transparent 68%,        
-          ${theme}25 80%,         
+          ${theme}25 70%,         
           ${theme}55 90%,
           ${theme}85 96%,
           ${theme} 100%
