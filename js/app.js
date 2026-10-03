@@ -161,7 +161,7 @@ page.innerHTML = `
           ${theme}25 55%,         
           ${theme}45 70%,
           ${theme}65 85%,
-          ${theme}85 95%
+          ${theme}85 95%,
           ${theme} 100%
         ),
       url(${movie.backdrop});
