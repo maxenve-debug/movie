@@ -28,8 +28,8 @@ const movies = [
       "images/gallery/spyxfamily2023-4.png",
       "images/gallery/spyxfamily2023-6.png",
       "images/gallery/spyxfamily2023-7.png",
+      "images/gallery/spyxfamily2023-9.png",
       "images/gallery/spyxfamily2023-8.png",
-      "images/gallery/spyxfamily2023-9.png"
     ]
   },
   {
