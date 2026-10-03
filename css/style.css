@@ -287,12 +287,12 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5% 50px;
-  padding-top: 36vh;            /* controls how high the title sits */
+  padding-top: 46vh;            /* controls how high the title sits */
 }
 
 /* Title block */
 .detail-top {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   max-width: 580px;
 }
 
