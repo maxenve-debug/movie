@@ -29,7 +29,7 @@ const movies = [
       "images/gallery/spyxfamily2023-6.png",
       "images/gallery/spyxfamily2023-7.png",
       "images/gallery/spyxfamily2023-9.png",
-      "images/gallery/spyxfamily2023-8.png",
+      "images/gallery/spyxfamily2023-8.png"
     ]
   },
   {
@@ -55,7 +55,7 @@ const movies = [
       "images/gallery/enolaholmes2020-6.png",
       "images/gallery/enolaholmes2020-7.png",
       "images/gallery/enolaholmes2020-8.png",
-      "images/gallery/enolaholmes2020-9.png",
+      "images/gallery/enolaholmes2020-9.png"
       
     ]
   },
@@ -82,7 +82,7 @@ const movies = [
       "images/gallery/barbie2023-7.png",
       "images/gallery/barbie2023-4.png",
       "images/gallery/barbie2023-8.png",
-      "images/gallery/barbie2023-9.png",
+      "images/gallery/barbie2023-9.png"
     ]
   },
   {
@@ -108,27 +108,33 @@ const movies = [
       "images/gallery/perayaanmatirasa2025-6.png",
       "images/gallery/perayaanmatirasa2025-7.png",
       "images/gallery/perayaanmatirasa2025-9.png",
-      "images/gallery/perayaanmatirasa2025-8.png",
+      "images/gallery/perayaanmatirasa2025-8.png"
     ]
   },
   {
-    id: "top-gun-maverick",
-    title: "Top Gun: Maverick",
-    titleLogo: "images/titles/barbie-logo.png",
-    language: "English",
-    year: 2022,
-    poster: "https://picsum.photos/seed/topgun/300/450",
-    backdrop: "https://picsum.photos/seed/topgunbg/1280/720",
-    themeColor: "#e91e63",
-    synopsis: "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
-    genres: ["Action", "Drama"],
-    director: "Joseph Kosinski",
-    runtime: "130 min",
-    rating: 8.2,
+    id: "ponyo",
+    title: "Ponyo",
+    titleLogo: "images/logo/ponyo2008.png",
+    language: "Japanese",
+    year: 2008,
+    poster: "images/posters/ponyo2008.png",
+    backdrop: "images/overlays/ponyo2008.png",
+    themeColor: "#5b749a",
+    synopsis: "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
+    genres: ["Fairytale", "Adventure"],
+    director: "Hayao Miyazaki",
+    runtime: "101 min",
+    rating: 7.6,
     gallery: [
-      "https://picsum.photos/seed/topguna/800/450",
-      "https://picsum.photos/seed/topgunb/800/450",
-      "https://picsum.photos/seed/topgunc/800/450"
+      "images/gallery/ponyo2008-1.png",
+      "images/gallery/ponyo2008-2.png",
+      "images/gallery/ponyo2008-3.png",
+      "images/gallery/ponyo2008-4.png",
+      "images/gallery/ponyo2008-5.png",
+      "images/gallery/ponyo2008-6.png",
+      "images/gallery/ponyo2008-7.png",
+      "images/gallery/ponyo2008-8.png",
+      "images/gallery/ponyo2008-9.png"
     ]
   },
   {
