@@ -33,23 +33,23 @@ const movies = [
     ]
   },
   {
-    id: "oppenheimer",
-    title: "Oppenheimer",
-    titleLogo: "images/titles/barbie-logo.png",
+    id: "enola-holmes",
+    title: "Enola Holmes",
+    titleLogo: "images/titles/enolaholmes-logo.png",
     language: "English",
-    year: 2023,
-    poster: "https://picsum.photos/seed/oppen/300/450",
-    backdrop: "https://picsum.photos/seed/oppenbg/1280/720",
+    year: 2020,
+    poster: "images/posters/enolaholmes2020.png",
+    backdrop: "images/overlays/enolaholmes2020.png",
     themeColor: "#e91e63",
-    synopsis: "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II. A gripping historical drama that explores the moral complexities of scientific discovery.",
-    genres: ["Biography", "Drama", "History"],
-    director: "Christopher Nolan",
-    runtime: "180 min",
-    rating: 8.3,
+    synopsis: "When Enola Holmes, Sherlock's sister, discovers her mother is missing, she endeavors to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy.",
+    genres: ["Cozy Mystery", "Dark Comedy", "Adventure", "Drama"],
+    director: "Harry Bradbeer",
+    runtime: "123 min",
+    rating: 6.7,
     gallery: [
-      "https://picsum.photos/seed/oppena/800/450",
-      "https://picsum.photos/seed/oppenb/800/450",
-      "https://picsum.photos/seed/oppenc/800/450"
+      "images/gallery/enolaholmes2020-3.png",
+      "images/gallery/enolaholmes2020-2.png",
+      "images/gallery/enolaholmes2020-1.png",
     ]
   },
   {
