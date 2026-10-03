@@ -93,7 +93,7 @@ const movies = [
     year: 2025,
     poster: "images/posters/perayaanmatirasa2025.png",
     backdrop: "images/overlays/perayaanmatirasa2025.png",
-    themeColor: "#e91e63",
+    themeColor: "#86a6bf",
     synopsis: "When they suddenly lose their parents, rival siblings lan and Uta must set aside their dreams to help each other navigate their grief.",
     genres: ["Drama", "Family", "Music"],
     director: "Umay Shahab",
