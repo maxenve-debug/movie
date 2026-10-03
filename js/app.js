@@ -162,7 +162,7 @@ page.innerHTML = `
           ${theme}55 90%,
           ${theme}85 96%,
           ${theme} 100%
-        )
+        ),
       url(${movie.backdrop});
   "></div>
 
