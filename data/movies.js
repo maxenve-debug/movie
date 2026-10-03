@@ -35,7 +35,7 @@ const movies = [
   {
     id: "enola-holmes",
     title: "Enola Holmes",
-    titleLogo: "images/titles/enolaholmes-logo.png",
+    titleLogo: "images/logo/enolaholmes-logo.png",
     language: "English",
     year: 2020,
     poster: "images/posters/enolaholmes2020.png",
@@ -50,6 +50,13 @@ const movies = [
       "images/gallery/enolaholmes2020-3.png",
       "images/gallery/enolaholmes2020-2.png",
       "images/gallery/enolaholmes2020-1.png",
+      "images/gallery/enolaholmes2020-4.png",
+      "images/gallery/enolaholmes2020-5.png",
+      "images/gallery/enolaholmes2020-6.png",
+      "images/gallery/enolaholmes2020-7.png",
+      "images/gallery/enolaholmes2020-8.png",
+      "images/gallery/enolaholmes2020-9.png",
+      
     ]
   },
   {
