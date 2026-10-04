@@ -104,10 +104,10 @@ const movies = [
       "images/gallery/perayaanmatirasa2025-2.png",
       "images/gallery/perayaanmatirasa2025-3.png",
       "images/gallery/perayaanmatirasa2025-4.png",
-      "images/gallery/perayaanmatirasa2025-5.png",
+      "images/gallery/perayaanmatirasa2025-9.png",
       "images/gallery/perayaanmatirasa2025-6.png",
       "images/gallery/perayaanmatirasa2025-7.png",
-      "images/gallery/perayaanmatirasa2025-9.png",
+      "images/gallery/perayaanmatirasa2025-5.png",
       "images/gallery/perayaanmatirasa2025-8.png"
     ]
   },
