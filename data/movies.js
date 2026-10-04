@@ -195,9 +195,9 @@ const movies = [
       "images/gallery/exterritorial2025-1.png",
       "images/gallery/exterritorial2025-2.png",
       "images/gallery/exterritorial2025-3.png",
-      "images/gallery/exterritorial2025-4.png",
-      "images/gallery/exterritorial2025-5.png",
       "images/gallery/exterritorial2025-6.png",
+      "images/gallery/exterritorial2025-5.png",
+      "images/gallery/exterritorial2025-4.png",
       "images/gallery/exterritorial2025-7.png",
       "images/gallery/exterritorial2025-8.png",
       "images/gallery/exterritorial2025-9.png"
