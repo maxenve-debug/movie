@@ -211,7 +211,7 @@ const movies = [
     year: 2024,
     poster: "images/posters/grandpaandgrandmaturnyoungagain2024.png",
     backdrop: "images/overlays/grandpaandgrandmaturnyoungagain2024.png",
-    themeColor: "#e91e63",
+    themeColor: "#e2e1dd",
     synopsis: "An couple who have stayed together to old age find themselves suddenly restored to youth. A second life now starts for them.",
     genres: ["Romentic Comedy", "Supernatural Fantasy"],
     creator: "Kagiri Araido",
