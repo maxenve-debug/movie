@@ -231,7 +231,7 @@ const movies = [
     year: 2019,
     poster: "images/posters/littlewomen2019.png",
     backdrop: "images/overlays/littlewomen2019.png",
-    themeColor: "#e91e63",
+    themeColor: "#674f45",
     synopsis: "In 19th century Massachusetts, the March sisters--Meg, Jo, Beth, and Amy--on the threshold of womanhood, go through many ups and downs in life and endeavor to make important decisions about their futures.",
     genres: ["Coming-of-Age", "Period Drama", "Thriller"],
     director: "Greta Gerwig",
