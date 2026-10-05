@@ -287,7 +287,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5% 50px;
-  padding-top: 60vh;            /* controls how high the title sits */
+  padding-top: 50vh;            /* controls how high the title sits */
 }
 
 /* Title block */
