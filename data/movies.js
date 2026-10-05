@@ -226,22 +226,27 @@ const movies = [
   {
     id: "little-women",
     title: "Little Women",
-    titleLogo: "images/logo/barbie-logo.png",
+    titleLogo: "images/logo/littlewomen2019.png",
     language: "English",
     year: 2019,
     poster: "images/posters/littlewomen2019.png",
-    backdrop: "https://picsum.photos/seed/inceptionbg/1280/720",
+    backdrop: "images/overlays/littlewomen2019.png",
     themeColor: "#e91e63",
-    synopsis: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
-    genres: ["Action", "Sci-Fi", "Thriller"],
-    director: "Christopher Nolan",
-    runtime: "148 min",
-    rating: 8.8,
+    synopsis: "In 19th century Massachusetts, the March sisters--Meg, Jo, Beth, and Amy--on the threshold of womanhood, go through many ups and downs in life and endeavor to make important decisions about their futures.",
+    genres: ["Coming-of-Age", "Period Drama", "Thriller"],
+    director: "Greta Gerwig",
+    runtime: "135 min",
+    rating: 7.7,
     gallery: [
-      "https://picsum.photos/seed/inceptiona/800/450",
-      "https://picsum.photos/seed/inceptionb/800/450",
-      "https://picsum.photos/seed/inceptionc/800/450",
-      "https://picsum.photos/seed/inceptiond/800/450"
+      "images/gallery/littlewomen2019-1.png",
+      "images/gallery/littlewomen2019-2.png",
+      "images/gallery/littlewomen2019-3.png",
+      "images/gallery/littlewomen2019-4.png",
+      "images/gallery/littlewomen2019-5.png",
+      "images/gallery/littlewomen2019-6.png",
+      "images/gallery/littlewomen2019-7.png",
+      "images/gallery/littlewomen2019-8.png",
+      "images/gallery/littlewomen2019-9.png"
     ]
   }
 ];
