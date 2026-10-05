@@ -210,17 +210,23 @@ const movies = [
     language: "Japanese",
     year: 2024,
     poster: "images/posters/grandpaandgrandmaturnyoungagain2024.png",
-    backdrop: "https://picsum.photos/seed/whiplashbg/1280/720",
+    backdrop: "images/overlays/grandpaandgrandmaturnyoungagain2024.png",
     themeColor: "#e91e63",
-    synopsis: "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
-    genres: ["Drama", "Music"],
-    director: "Damien Chazelle",
-    runtime: "106 min",
-    rating: 8.5,
+    synopsis: "An couple who have stayed together to old age find themselves suddenly restored to youth. A second life now starts for them.",
+    genres: ["Romentic Comedy", "Supernatural Fantasy"],
+    director: "Kagiri Araido",
+    runtime: "11 Episodes",
+    rating: 6.7,
     gallery: [
-      "https://picsum.photos/seed/whiplasha/800/450",
-      "https://picsum.photos/seed/whiplashb/800/450",
-      "https://picsum.photos/seed/whiplashc/800/450"
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-1.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-2.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-3.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-4.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-5.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-6.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-7.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-8.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-9.png"
     ]
   },
   {
