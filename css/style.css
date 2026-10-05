@@ -371,6 +371,16 @@ img {
   color: white;
 }
 
+.detail-creator {
+   font-size: 0.95rem;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 10px;
+}
+
+.detail-creator strong {
+  color: white;
+}
+
 .detail-synopsis {
   font-size: 0.98rem;
   line-height: 1.6;
