@@ -191,8 +191,8 @@ page.innerHTML = `
              onerror="this.src='https://via.placeholder.com/300x450/222/666?text=No+Poster'">
       </div>
       <div class="detail-info">
-        <p class="detail-director">Director <strong>${movie.director}</strong></p>
-        <p class="detail-creator">Creator <strong>${movie.creator}</strong></p>
+        ${movie.director ? `<p class="detail-director">Director <strong>${movie.director}</strong></p>` : ""}
+        ${movie.creator ? `<p class="detail-creator">Creator <strong>${movie.creator}</strong></p>` : ""}
         <p class="detail-synopsis">${movie.synopsis}</p>
         <div class="genre-tags">
           ${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}
