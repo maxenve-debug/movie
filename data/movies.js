@@ -214,7 +214,7 @@ const movies = [
     themeColor: "#e91e63",
     synopsis: "An couple who have stayed together to old age find themselves suddenly restored to youth. A second life now starts for them.",
     genres: ["Romentic Comedy", "Supernatural Fantasy"],
-    director: "Kagiri Araido",
+    creator: "Kagiri Araido",
     runtime: "11 Episodes",
     rating: 6.7,
     gallery: [
