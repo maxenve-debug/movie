@@ -218,15 +218,15 @@ const movies = [
     runtime: "11 Episodes",
     rating: 6.7,
     gallery: [
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-9.png",
       "images/gallery/grandpaandgrandmaturnyoungagain2024-1.png",
-      "images/gallery/grandpaandgrandmaturnyoungagain2024-2.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-7.png",
       "images/gallery/grandpaandgrandmaturnyoungagain2024-3.png",
-      "images/gallery/grandpaandgrandmaturnyoungagain2024-4.png",
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-2.png",
       "images/gallery/grandpaandgrandmaturnyoungagain2024-5.png",
       "images/gallery/grandpaandgrandmaturnyoungagain2024-6.png",
-      "images/gallery/grandpaandgrandmaturnyoungagain2024-7.png",
       "images/gallery/grandpaandgrandmaturnyoungagain2024-8.png",
-      "images/gallery/grandpaandgrandmaturnyoungagain2024-9.png"
+      "images/gallery/grandpaandgrandmaturnyoungagain2024-4.png"
     ]
   },
   {
