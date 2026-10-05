@@ -165,7 +165,7 @@ const movies = [
     year: 2005,
     poster: "images/posters/criminalminds2005.png",
     backdrop: "images/overlays/criminalminds2005.png",
-    themeColor: "#070a0f",
+    themeColor: "#8c0e08",
     synopsis: "A group of FBI profilers delve deeper into the most evil criminal minds to pinpoint the situations that trigger off the violence in them and try to stop them before they can strike.",
     genres: ["Crime", "Drama", "Psychological Thriller", "Police Procedural"],
     creator: "Jeff Davis",
