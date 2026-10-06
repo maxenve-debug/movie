@@ -310,7 +310,7 @@ const movies = [
     gallery: [
       "images/gallery/3idiots2009-1.png",
       "images/gallery/3idiots2009-2.png",
-      "images/gallery/3idiots20096-3.png",
+      "images/gallery/3idiots2009-3.png",
       "images/gallery/3idiots2009-4.png",
       "images/gallery/3idiots2009-5.png",
       "images/gallery/3idiots2009-6.png",
