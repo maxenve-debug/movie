@@ -344,5 +344,31 @@ const movies = [
       "images/gallery/meangirls2004-8.png",
       "images/gallery/meangirls2004-9.png"
     ]
+  },
+  {
+    id: "28-years-later-the-bone-temple",
+    title: "28 Years Later: The Bone Temple",
+    titleLogo: "images/logo/28yearslaterthebonetemple2026.png",
+    language: "English",
+    year: 2026,
+    poster: "images/posters/28yearslaterthebonetemple2026.png",
+    backdrop: "images/overlays/28yearslaterthebonetemple2026.png",
+    themeColor: "#952e0b",
+    synopsis: "Dr. Kelson's groundbreaking discovery promises to change the world, but for Spike, an encounter with Jimmy Crystal spirals into a never-ending nightmare.",
+    genres: ["Dystopian Sci-Fi", "Horror"],
+    director: "Nia DaCosta",
+    runtime: "109 min",
+    rating: 8.8,
+    gallery: [
+      "images/gallery/28yearslaterthebonetemple2026-1.png",
+      "images/gallery/28yearslaterthebonetemple2026-2.png",
+      "images/gallery/28yearslaterthebonetemple2026-3.png",
+      "images/gallery/28yearslaterthebonetemple2026-4.png",
+      "images/gallery/28yearslaterthebonetemple2026-5.png",
+      "images/gallery/28yearslaterthebonetemple2026-6.png",
+      "images/gallery/28yearslaterthebonetemple2026-7.png",
+      "images/gallery/28yearslaterthebonetemple2026-8.png",
+      "images/gallery/28yearslaterthebonetemple2026-9.png"
+    ]
   }
 ];
