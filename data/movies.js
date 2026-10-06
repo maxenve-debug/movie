@@ -19,7 +19,7 @@ const movies = [
     genres: ["Comedy", "Adventure", "Action"],
     director: "Takashi Katagiri",
     runtime: "110 min",
-    rating: 7.2,
+    rating: 9.5,
     gallery: [
       "images/gallery/spyxfamily2023-3.png",
       "images/gallery/spyxfamily2023-2.png",
@@ -45,7 +45,7 @@ const movies = [
     genres: ["Cozy Mystery", "Dark Comedy", "Adventure", "Drama"],
     director: "Harry Bradbeer",
     runtime: "123 min",
-    rating: 6.7,
+    rating: 7.8,
     gallery: [
       "images/gallery/enolaholmes2020-3.png",
       "images/gallery/enolaholmes2020-2.png",
@@ -72,7 +72,7 @@ const movies = [
     genres: ["Comedy", "Adventure", "Fantasy"],
     director: "Greta Gerwig",
     runtime: "114 min",
-    rating: 6.9,
+    rating: 6.4,
     gallery: [
       "images/gallery/barbie2023-1.png",
       "images/gallery/barbie2023-2.png",
@@ -98,7 +98,7 @@ const movies = [
     genres: ["Drama", "Family", "Music"],
     director: "Umay Shahab",
     runtime: "125 min",
-    rating: 7.0,
+    rating: 6.3,
     gallery: [
       "images/gallery/perayaanmatirasa2025-1.png",
       "images/gallery/perayaanmatirasa2025-2.png",
@@ -124,7 +124,7 @@ const movies = [
     genres: ["Fairytale", "Adventure"],
     director: "Hayao Miyazaki",
     runtime: "101 min",
-    rating: 7.6,
+    rating: 7.7,
     gallery: [
       "images/gallery/ponyo2008-1.png",
       "images/gallery/ponyo2008-2.png",
@@ -138,23 +138,29 @@ const movies = [
     ]
   },
   {
-    id: "parasite",
-    title: "Parasite",
+    id: "geng-pengembaraan-bermula",
+    title: "Geng: Pengembaraan Bermula",
     titleLogo: "images/titles/barbie-logo.png",
-    language: "English",
-    year: 2019,
-    poster: "https://picsum.photos/seed/parasite/300/450",
-    backdrop: "https://picsum.photos/seed/parasitebg/1280/720",
+    language: "Malay",
+    year: 2009,
+    poster: "images/posters/gengpengembaraanbermula2009.png",
+    backdrop: "images/posters/gengpengembaraanbermula2009.png",
     themeColor: "#e91e63",
-    synopsis: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan. A masterful dark comedy thriller that took the world by storm.",
-    genres: ["Thriller", "Drama", "Comedy"],
-    director: "Bong Joon-ho",
-    runtime: "132 min",
-    rating: 8.5,
+    synopsis: "Badrol goes to visit his grandfather in the village along with his best friend Lim. However, their holiday turns into an adventure when they and their newfound friends try to locate a mystery house.",
+    genres: ["Family", "Adventure"],
+    director: "Nizam Razak",
+    runtime: "95 min",
+    rating: 8.1,
     gallery: [
-      "https://picsum.photos/seed/parasitea/800/450",
-      "https://picsum.photos/seed/parasiteb/800/450",
-      "https://picsum.photos/seed/parasitec/800/450"
+      "images/gallery/gengpengembaraanbermula-1.png",
+      "images/gallery/gengpengembaraanbermula-2.png",
+      "images/gallery/gengpengembaraanbermula-3.png",
+      "images/gallery/gengpengembaraanbermula-4.png",
+      "images/gallery/gengpengembaraanbermula-5.png",
+      "images/gallery/gengpengembaraanbermula-6.png",
+      "images/gallery/gengpengembaraanbermula-7.png",
+      "images/gallery/gengpengembaraanbermula-8.png",
+      "images/gallery/gengpengembaraanbermula-9.png"
     ]
   },
   {
@@ -196,7 +202,7 @@ const movies = [
     genres: ["Action", "Thriller", "Mystery"],
     director: "Christian Zübert",
     runtime: "109 min",
-    rating: 5.8,
+    rating: 5.6,
     gallery: [
       "images/gallery/exterritorial2025-1.png",
       "images/gallery/exterritorial2025-2.png",
@@ -222,7 +228,7 @@ const movies = [
     genres: ["Romentic Comedy", "Supernatural Fantasy"],
     creator: "Kagiri Araido",
     runtime: "11 Episodes",
-    rating: 6.7,
+    rating: 8.0,
     gallery: [
       "images/gallery/grandpaandgrandmaturnyoungagain2024-9.png",
       "images/gallery/grandpaandgrandmaturnyoungagain2024-1.png",
@@ -248,7 +254,7 @@ const movies = [
     genres: ["Coming-of-Age", "Period Drama", "Thriller"],
     director: "Greta Gerwig",
     runtime: "135 min",
-    rating: 7.7,
+    rating: 8.9,
     gallery: [
       "images/gallery/littlewomen2019-1.png",
       "images/gallery/littlewomen2019-2.png",
