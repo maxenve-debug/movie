@@ -144,7 +144,7 @@ const movies = [
     language: "Malay",
     year: 2009,
     poster: "images/posters/gengpengembaraanbermula2009.png",
-    backdrop: "images/posters/gengpengembaraanbermula2009.png",
+    backdrop: "images/overlays/gengpengembaraanbermula2009.png",
     themeColor: "#e91e63",
     synopsis: "Badrol goes to visit his grandfather in the village along with his best friend Lim. However, their holiday turns into an adventure when they and their newfound friends try to locate a mystery house.",
     genres: ["Family", "Adventure"],
