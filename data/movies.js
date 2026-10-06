@@ -370,5 +370,31 @@ const movies = [
       "images/gallery/28yearslaterthebonetemple2026-8.png",
       "images/gallery/28yearslaterthebonetemple2026-9.png"
     ]
+  },
+  {
+    id: "descendants-of-the-sun",
+    title: "Descendants of the Sun",
+    titleLogo: "images/logo/descendantsofthesun2016.png",
+    language: "Korean",
+    year: 2016,
+    poster: "images/posters/descendantsofthesun2016.png",
+    backdrop: "images/overlays/descendantsofthesun2016.png",
+    themeColor: "#aa632f",
+    synopsis: "After a chance meeting in a hospital, an ardent soldier falls for a gifted surgeon. Opposing philosophies tear them apart, but fate has other plans.",
+    genres: ["Romance", "Melodrama", "Action"],
+    director: ["Lee Eung-bok", "Baek Sang-hoon"],
+    runtime: "16 Episodes",
+    rating: 8.4,
+    gallery: [
+      "images/gallery/descendantsofthesun2016-1.png",
+      "images/gallery/descendantsofthesun2016-2.png",
+      "images/gallery/descendantsofthesun2016-3.png",
+      "images/gallery/descendantsofthesun2016-4.png",
+      "images/gallery/descendantsofthesun2016-5.png",
+      "images/gallery/descendantsofthesun2016-6.png",
+      "images/gallery/descendantsofthesun2016-7.png",
+      "images/gallery/descendantsofthesun2016-8.png",
+      "images/gallery/descendantsofthesun2016-9.png"
+    ]
   }
 ];
