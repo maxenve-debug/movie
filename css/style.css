@@ -378,6 +378,7 @@ img {
 
 .detail-director strong {
   color: white;
+  font-size: 1.2rem;
 }
 
 .detail-creator {
@@ -388,11 +389,12 @@ img {
 
 .detail-creator strong {
   color: white;
+  font-size: 1.2rem;
 }
 
 .detail-synopsis {
-  font-size: 1.3rem;
-  line-height: 1.3;
+  font-size: 1.2rem;
+  line-height: 1.6;
   color: rgba(255,255,255,0.92);
   margin-bottom: 18px;
 }
@@ -407,7 +409,7 @@ img {
   padding: 5px 14px;
   border: 1px solid rgba(255,255,255,0.28);
   border-radius: 20px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: white;
   background: rgba(255,255,255,0.08);
 }
