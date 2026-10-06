@@ -301,7 +301,7 @@ const movies = [
     year: 2009,
     poster: "images/posters/3idiots2009.png",
     backdrop: "images/overlays/3idiots2009.png",
-    themeColor: "#d4c857",
+    themeColor: "#558a89",
     synopsis: "In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
     genres: ["Buddy Comedy", "Drama", "Coming-of-Age"],
     director: "Rajkumar Hirani",
