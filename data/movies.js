@@ -140,7 +140,7 @@ const movies = [
   {
     id: "geng-pengembaraan-bermula",
     title: "Geng: Pengembaraan Bermula",
-    titleLogo: "images/titles/barbie-logo.png",
+    titleLogo: "images/logo/gengpengembaraanbermula2009.png",
     language: "Malay",
     year: 2009,
     poster: "images/posters/gengpengembaraanbermula2009.png",
@@ -152,15 +152,15 @@ const movies = [
     runtime: "95 min",
     rating: 8.1,
     gallery: [
-      "images/gallery/gengpengembaraanbermula-1.png",
-      "images/gallery/gengpengembaraanbermula-2.png",
-      "images/gallery/gengpengembaraanbermula-3.png",
-      "images/gallery/gengpengembaraanbermula-4.png",
-      "images/gallery/gengpengembaraanbermula-5.png",
-      "images/gallery/gengpengembaraanbermula-6.png",
-      "images/gallery/gengpengembaraanbermula-7.png",
-      "images/gallery/gengpengembaraanbermula-8.png",
-      "images/gallery/gengpengembaraanbermula-9.png"
+      "images/gallery/gengpengembaraanbermula2009-1.png",
+      "images/gallery/gengpengembaraanbermula2009-2.png",
+      "images/gallery/gengpengembaraanbermula2009-3.png",
+      "images/gallery/gengpengembaraanbermula2009-4.png",
+      "images/gallery/gengpengembaraanbermula2009-5.png",
+      "images/gallery/gengpengembaraanbermula2009-6.png",
+      "images/gallery/gengpengembaraanbermula2009-7.png",
+      "images/gallery/gengpengembaraanbermula2009-8.png",
+      "images/gallery/gengpengembaraanbermula2009-9.png"
     ]
   },
   {
