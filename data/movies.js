@@ -318,5 +318,31 @@ const movies = [
       "images/gallery/3idiots2009-8.png",
       "images/gallery/3idiots2009-9.png"
     ]
+  },
+  {
+    id: "mean-girls",
+    title: "Mean Girls",
+    titleLogo: "images/logo/meangirls2004.png",
+    language: "English",
+    year: 2004,
+    poster: "images/posters/meangirls2004.png",
+    backdrop: "images/overlays/meangirls2004.png",
+    themeColor: "#a75f87",
+    synopsis: "Cady joins a public school in Illinois. Her two classmates warn her to stay away from a coterie of girls led by queen bee Regina, but Cady joins them. However, she gets smitten with Regina's ex-love.",
+    genres: ["Teen Comedy", "Drama"],
+    director: "Mark Waters",
+    runtime: "98 min",
+    rating: 9.4,
+    gallery: [
+      "images/gallery/meangirls2004-1.png",
+      "images/gallery/meangirls2004-2.png",
+      "images/gallery/meangirls2004-3.png",
+      "images/gallery/meangirls2004-4.png",
+      "images/gallery/meangirls2004-5.png",
+      "images/gallery/meangirls2004-6.png",
+      "images/gallery/meangirls2004-7.png",
+      "images/gallery/meangirls2004-8.png",
+      "images/gallery/meangirls2004-9.png"
+    ]
   }
 ];
