@@ -292,5 +292,31 @@ const movies = [
       "images/gallery/thedavincicode2006-8.png",
       "images/gallery/thedavincicode2006-9.png"
     ]
+  },
+  {
+    id: "3-idiots",
+    title: "3 Idiots",
+    titleLogo: "images/logo/3idiots2009.png",
+    language: "Hindi",
+    year: 2009,
+    poster: "images/posters/3idiots2009.png",
+    backdrop: "images/overlays/3idiots2009.png",
+    themeColor: "#d4c857",
+    synopsis: "In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
+    genres: ["Buddy Comedy", "Drama", "Coming-of-Age"],
+    director: "Rajkumar Hirani",
+    runtime: "170 min",
+    rating: 9.7,
+    gallery: [
+      "images/gallery/3idiots2009-1.png",
+      "images/gallery/3idiots2009-2.png",
+      "images/gallery/3idiots20096-3.png",
+      "images/gallery/3idiots2009-4.png",
+      "images/gallery/3idiots2009-5.png",
+      "images/gallery/3idiots2009-6.png",
+      "images/gallery/3idiots2009-7.png",
+      "images/gallery/3idiots2009-8.png",
+      "images/gallery/3idiots2009-9.png"
+    ]
   }
 ];
