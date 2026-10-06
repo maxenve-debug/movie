@@ -266,5 +266,31 @@ const movies = [
       "images/gallery/littlewomen2019-8.png",
       "images/gallery/littlewomen2019-9.png"
     ]
+  },
+  {
+    id: "the-da-vinci-code",
+    title: "The Da Vinci Code",
+    titleLogo: "images/logo/thedavincicode2006.png",
+    language: "English",
+    year: 2006,
+    poster: "images/posters/thedavincicode2006.png",
+    backdrop: "images/overlays/thedavincicode2006.png",
+    themeColor: "#2f221c",
+    synopsis: "Symbologist Robert Langdon travels from Paris to London to unravel a bizarre murder. Accompanied by a cryptographer, he soon comes across a religious enigma protected by an age-old secret society.",
+    genres: ["Conspiracy Thriller", "Epic", "Mystery"],
+    director: "Ron Howard",
+    runtime: "149 min",
+    rating: 8.5,
+    gallery: [
+      "images/gallery/thedavincicode2006-1.png",
+      "images/gallery/thedavincicode2006-2.png",
+      "images/gallery/thedavincicode2006-3.png",
+      "images/gallery/thedavincicode2006-4.png",
+      "images/gallery/thedavincicode2006-5.png",
+      "images/gallery/thedavincicode2006-6.png",
+      "images/gallery/thedavincicode2006-7.png",
+      "images/gallery/thedavincicode2006-8.png",
+      "images/gallery/thedavincicode2006-9.png"
+    ]
   }
 ];
