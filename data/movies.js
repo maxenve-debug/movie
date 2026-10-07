@@ -414,7 +414,7 @@ const movies = [
     gallery: [
       "images/gallery/jujutsukaisen2020-1.png",
       "images/gallery/jujutsukaisen2020-2.png",
-      "images/gallery/djujutsukaisen2020-3.png",
+      "images/gallery/jujutsukaisen2020-3.png",
       "images/gallery/jujutsukaisen2020-4.png",
       "images/gallery/jujutsukaisen2020-5.png",
       "images/gallery/jujutsukaisen2020-6.png",
