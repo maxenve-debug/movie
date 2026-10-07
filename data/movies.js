@@ -433,7 +433,7 @@ const movies = [
     backdrop: "images/overlays/muallaf2008.png",
     themeColor: "#716544",
     synopsis: "Two sisters run away from an abusive father and come under the care of a Catholic schoolteacher.",
-    genres: "Drama",
+    genres: ["Drama", "Melancholy"],
     creator: "Yasmin Ahmad",
     runtime: "80 min",
     rating: 8.2,
