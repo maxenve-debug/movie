@@ -396,5 +396,31 @@ const movies = [
       "images/gallery/descendantsofthesun2016-8.png",
       "images/gallery/descendantsofthesun2016-9.png"
     ]
+  },
+  {
+    id: "jujutsu-kaisen",
+    title: "Jujutsu Kaisen",
+    titleLogo: "images/logo/jujutsukaisen2020.png",
+    language: "Japanese",
+    year: 2020,
+    poster: "images/posters/jujutsukaisen2020.png",
+    backdrop: "images/overlays/jujutsukaisen2020.png",
+    themeColor: "#9f2534",
+    synopsis: "After swallowing a cursed relic, kindhearted teenager Yuji Itadori becomes host to the King of Curses and joins a secret school of sorcerers battling monsters born from humanity's darkest emotions.",
+    genres: ["Supernatural", "Action", "Dark Fantasy"],
+    creator: "Gege Akutami",
+    runtime: "3 Seasons",
+    rating: 8.2,
+    gallery: [
+      "images/gallery/jujutsukaisen2020-1.png",
+      "images/gallery/jujutsukaisen2020-2.png",
+      "images/gallery/djujutsukaisen2020-3.png",
+      "images/gallery/jujutsukaisen2020-4.png",
+      "images/gallery/jujutsukaisen2020-5.png",
+      "images/gallery/jujutsukaisen2020-6.png",
+      "images/gallery/jujutsukaisen2020-7.png",
+      "images/gallery/jujutsukaisen2020-8.png",
+      "images/gallery/jujutsukaisen2020-9.png"
+    ]
   }
 ];
