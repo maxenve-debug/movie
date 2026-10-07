@@ -422,5 +422,31 @@ const movies = [
       "images/gallery/jujutsukaisen2020-8.png",
       "images/gallery/jujutsukaisen2020-9.png"
     ]
+  },
+  {
+    id: "muallaf",
+    title: "Muallaf",
+    titleLogo: "images/logo/muallaf2008.png",
+    language: "Malay",
+    year: 2008,
+    poster: "images/posters/muallaf2008.png",
+    backdrop: "images/overlays/muallaf2008.png",
+    themeColor: "#716544",
+    synopsis: "Two sisters run away from an abusive father and come under the care of a Catholic schoolteacher.",
+    genres: "Drama",
+    creator: "Yasmin Ahmad",
+    runtime: "80 min",
+    rating: 8.2,
+    gallery: [
+      "images/gallery/muallaf2008-1.png",
+      "images/gallery/muallaf2008-2.png",
+      "images/gallery/muallaf2008-3.png",
+      "images/gallery/muallaf2008-4.png",
+      "images/gallery/muallaf2008-5.png",
+      "images/gallery/muallaf2008-6.png",
+      "images/gallery/muallaf2008-7.png",
+      "images/gallery/muallaf2008-8.png",
+      "images/gallery/muallaf2008-9.png"
+    ]
   }
 ];
