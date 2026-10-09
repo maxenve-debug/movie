@@ -483,7 +483,7 @@ const movies = [
     year: 1999,
     poster: "images/posters/girlinterrupted1999.png",
     backdrop: "images/overlays/girlinterrupted1999.png",
-    themeColor: "#7a4c4e",
+    themeColor: "#7a2e38",
     synopsis: "A directionless teenager, Susanna, is rushed to Claymoore, a mental institution, after a supposed suicide attempt. There, she befriends a group of troubled women who deeply influence her life.",
     genres: ["Drama", "Thriller"],
     creator: "James Mangold",
