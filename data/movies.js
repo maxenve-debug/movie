@@ -474,5 +474,31 @@ const movies = [
       "images/gallery/amancalledotto2022-8.png",
       "images/gallery/amancalledotto2022-9.png"
     ]
+  },
+  {
+    id: "girl-interrupted",
+    title: "Girl, Interrupted",
+    titleLogo: "images/logo/girlinterrupted1999.png",
+    language: "English",
+    year: 1999,
+    poster: "images/posters/girlinterrupted1999.png",
+    backdrop: "images/overlays/girlinterrupted1999.png",
+    themeColor: "#7a4c4e",
+    synopsis: "A directionless teenager, Susanna, is rushed to Claymoore, a mental institution, after a supposed suicide attempt. There, she befriends a group of troubled women who deeply influence her life.",
+    genres: ["Drama", "Thriller"],
+    creator: "James Mangold",
+    runtime: "127 min",
+    rating: 9.3,
+    gallery: [
+      "images/gallery/girlinterrupted1999-1.png",
+      "images/gallery/girlinterrupted1999-2.png",
+      "images/gallery/girlinterrupted1999-3.png",
+      "images/gallery/girlinterrupted1999-4.png",
+      "images/gallery/girlinterrupted1999-5.png",
+      "images/gallery/girlinterrupted1999-6.png",
+      "images/gallery/girlinterrupted1999-7.png",
+      "images/gallery/girlinterrupted1999-8.png",
+      "images/gallery/girlinterrupted1999-9.png"
+    ]
   }
 ];
