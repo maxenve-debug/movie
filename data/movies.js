@@ -434,7 +434,7 @@ const movies = [
     themeColor: "#716544",
     synopsis: "Two sisters run away from an abusive father and come under the care of a Catholic schoolteacher.",
     genres: ["Drama", "Melancholy"],
-    creator: "Yasmin Ahmad",
+    director: "Yasmin Ahmad",
     runtime: "80 min",
     rating: 8.2,
     gallery: [
@@ -460,7 +460,7 @@ const movies = [
     themeColor: "#364967",
     synopsis: "When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down.",
     genres: ["Drama", "Melodrama"],
-    creator: "Marc Forster",
+    director: "Marc Forster",
     runtime: "126 min",
     rating: 8.4,
     gallery: [
@@ -486,7 +486,7 @@ const movies = [
     themeColor: "#7a2e38",
     synopsis: "A directionless teenager, Susanna, is rushed to Claymoore, a mental institution, after a supposed suicide attempt. There, she befriends a group of troubled women who deeply influence her life.",
     genres: ["Drama", "Thriller"],
-    creator: "James Mangold",
+    director: "James Mangold",
     runtime: "127 min",
     rating: 9.3,
     gallery: [
