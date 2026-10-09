@@ -448,5 +448,31 @@ const movies = [
       "images/gallery/muallaf2008-8.png",
       "images/gallery/muallaf2008-9.png"
     ]
+  },
+  {
+    id: "a-man-called-otto",
+    title: "A Man Called Otto",
+    titleLogo: "images/logo/amancalledotto2022.png",
+    language: "English",
+    year: 2022,
+    poster: "images/posters/amancalledotto2022.png",
+    backdrop: "images/overlays/amancalledotto2022.png",
+    themeColor: "#364967",
+    synopsis: "When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down.",
+    genres: ["Drama", "Melodrama"],
+    creator: "Marc Forster",
+    runtime: "126 min",
+    rating: 8.4,
+    gallery: [
+      "images/gallery/amancalledotto2022-1.png",
+      "images/gallery/amancalledotto2022-2.png",
+      "images/gallery/amancalledotto2022-3.png",
+      "images/gallery/amancalledotto2022-4.png",
+      "images/gallery/amancalledotto2022-5.png",
+      "images/gallery/amancalledotto2022-6.png",
+      "images/gallery/amancalledotto2022-7.png",
+      "images/gallery/amancalledotto2022-8.png",
+      "images/gallery/amancalledotto2022-9.png"
+    ]
   }
 ];
