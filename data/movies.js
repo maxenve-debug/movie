@@ -509,7 +509,7 @@ const movies = [
     year: 2024,
     poster: "images/posters/dandadan2024.png",
     backdrop: "images/overlays/dandadan2024.png",
-    themeColor: "#762010",
+    themeColor: "#bf1216",
     synopsis: "Momo Ayase, a high school girl who believes in ghosts, and Ken 'Okarun' Takakura, a boy who believes in aliens, make a bet to see who is right. After visiting hotspots for both, they discover that both ghosts and aliens exist.",
     genres: ["Supernatural Thriller", "Action", "Romentic Comedy"],
     creator: "Yukinobu Tatsu",
