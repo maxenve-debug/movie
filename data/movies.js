@@ -500,5 +500,31 @@ const movies = [
       "images/gallery/girlinterrupted1999-8.png",
       "images/gallery/girlinterrupted1999-9.png"
     ]
+  },
+  {
+    id: "dandadan",
+    title: "Dandadan",
+    titleLogo: "images/logo/dandadan2024.png",
+    language: "Japanese",
+    year: 2024,
+    poster: "images/posters/dandadan2024.png",
+    backdrop: "images/overlays/dandadan2024.png",
+    themeColor: "#762010",
+    synopsis: "Momo Ayase, a high school girl who believes in ghosts, and Ken 'Okarun' Takakura, a boy who believes in aliens, make a bet to see who is right. After visiting hotspots for both, they discover that both ghosts and aliens exist.",
+    genres: ["Supernatural Thriller", "Action", "Romentic Comedy"],
+    creator: "Yukinobu Tatsu",
+    runtime: "2 Seasons",
+    rating: 8.3,
+    gallery: [
+      "images/gallery/dandadan2024-1.png",
+      "images/gallery/dandadan2024-2.png",
+      "images/gallery/dandadan2024-3.png",
+      "images/gallery/dandadan2024-4.png",
+      "images/gallery/dandadan2024-5.png",
+      "images/gallery/dandadan2024-6.png",
+      "images/gallery/dandadan2024-7.png",
+      "images/gallery/dandadan2024-8.png",
+      "images/gallery/dandadan2024-9.png"
+    ]
   }
 ];
