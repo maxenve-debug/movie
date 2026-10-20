@@ -526,5 +526,31 @@ const movies = [
       "images/gallery/dandadan2024-8.png",
       "images/gallery/dandadan2024-9.png"
     ]
+  },
+   {
+    id: "mr&mrssmith",
+    title: "Mr. & Mrs. Smith",
+    titleLogo: "images/logo/mr&mrssmith2005.png",
+    language: "English",
+    year: 2005,
+    poster: "images/posters/mr&mrssmith2005.png",
+    backdrop: "images/overlays/mr&mrssmith2005.png",
+    themeColor: "#d74401",
+    synopsis: "A husband and wife struggle to keep their marriage alive until they realise they are both secretly working as assassins. Now, their respective assignments require them to kill each other.",
+    genres: ["Action", "Comedy", "Drama", "Thriller"],
+    director: "Doug Liman",
+    runtime: "120 min",
+    rating: 8.8,
+    gallery: [
+      "images/gallery/mr&mrssmith2005-1.png",
+      "images/gallery/mr&mrssmith2005-2.png",
+      "images/gallery/mr&mrssmith2005-3.png",
+      "images/gallery/mr&mrssmith2005-4.png",
+      "images/gallery/mr&mrssmith2005-5.png",
+      "images/gallery/mr&mrssmith2005-6.png",
+      "images/gallery/mr&mrssmith2005-7.png",
+      "images/gallery/mr&mrssmith2005-8.png",
+      "images/gallery/mr&mrssmith2005-9.png"
+    ]
   }
 ];
