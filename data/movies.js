@@ -535,7 +535,7 @@ const movies = [
     year: 2005,
     poster: "images/posters/mr&mrssmith2005.png",
     backdrop: "images/overlays/mr&mrssmith2005.png",
-    themeColor: "#d74401",
+    themeColor: "#610012",
     synopsis: "A husband and wife struggle to keep their marriage alive until they realise they are both secretly working as assassins. Now, their respective assignments require them to kill each other.",
     genres: ["Action", "Comedy", "Drama", "Thriller"],
     director: "Doug Liman",
