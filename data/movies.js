@@ -561,7 +561,7 @@ const movies = [
     year: 2009,
     poster: "images/posters/jennifersbody2009.png",
     backdrop: "images/overlays/jennifersbody2009.png",
-    themeColor: "#62000d",
+    themeColor: "#0e442c",
     synopsis: "Jennifer becomes possessed and turns into a succubus after she is sacrificed to Satan. When her best friend Anita learns about it, she has to stop Jennifer before she attacks her lover Chip.",
     genres: ["Horror", "Comedy"],
     director: "Karyn Kusama",
