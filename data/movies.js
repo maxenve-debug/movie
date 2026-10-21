@@ -552,5 +552,31 @@ const movies = [
       "images/gallery/mr&mrssmith2005-8.png",
       "images/gallery/mr&mrssmith2005-9.png"
     ]
+  },
+  {
+    id: "jennifers-body",
+    title: "Jennifer's Body",
+    titleLogo: "images/logo/jennifersbody2009.png",
+    language: "English",
+    year: 2009,
+    poster: "images/posters/jennifersbody2009.png",
+    backdrop: "images/overlays/jennifersbody2009.png",
+    themeColor: "#62000d",
+    synopsis: "Jennifer becomes possessed and turns into a succubus after she is sacrificed to Satan. When her best friend Anita learns about it, she has to stop Jennifer before she attacks her lover Chip.",
+    genres: ["Horror", "Comedy"],
+    director: "Karyn Kusama",
+    runtime: "105 min",
+    rating: 7.3,
+    gallery: [
+      "images/gallery/jennifersbody2009-1.png",
+      "images/gallery/jennifersbody2009-2.png",
+      "images/gallery/jennifersbody2009-3.png",
+      "images/gallery/jennifersbody2009-4.png",
+      "images/gallery/jennifersbody2009-5.png",
+      "images/gallery/jennifersbody2009-6.png",
+      "images/gallery/jennifersbody2009-7.png",
+      "images/gallery/jennifersbody2009-8.png",
+      "images/gallery/jennifersbody2009-9.png"
+    ]
   }
 ];
