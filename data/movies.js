@@ -587,7 +587,7 @@ const movies = [
     year: 2022,
     poster: "images/posters/roalddahlsmatildathemusical2022.png",
     backdrop: "images/overlays/roalddahlsmatildathemusical2022.png",
-    themeColor: "#99a5a5",
+    themeColor: "#d3a02e",
     synopsis: "An extraordinary young girl discovers her superpower and summons the remarkable courage, against all odds, to help others change their stories, whilst also taking charge of her own destiny.",
     genres: ["Family", "Comedy", "Fantasy"],
     director: "Matthew Warchus",
