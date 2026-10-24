@@ -604,5 +604,31 @@ const movies = [
       "images/gallery/roalddahlsmatildathemusical2022-8.png",
       "images/gallery/roalddahlsmatildathemusical2022-9.png"
     ]
+  },
+   {
+    id: "anak-halal",
+    title: "Anak Halal",
+    titleLogo: "images/logo/anakhalal2007.png",
+    language: "Malay",
+    year: 2007,
+    poster: "images/posters/anakhalal2007.png",
+    backdrop: "images/overlays/anakhalal2007.png",
+    themeColor: "#c0c1c3",
+    synopsis: "Putra and Johanna live in very meager circumstances and inevitably grow up to be street kids, tough and full of conflict. They live hand to mouth, but at the same time their poverty does not stop them from having strong friendships and at times, to enjoy their youth.",
+    genres: ["Action", "Crime", "Drama"],
+    director: "Osman Ali",
+    runtime: "115 min",
+    rating: 6.6,
+    gallery: [
+      "images/gallery/anakhalal2007-1.png",
+      "images/gallery/anakhalal2007-2.png",
+      "images/gallery/anakhalal2007-3.png",
+      "images/gallery/anakhalal2007-4.png",
+      "images/gallery/anakhalal2007-5.png",
+      "images/gallery/anakhalal2007-6.png",
+      "images/gallery/anakhalal2007-7.png",
+      "images/gallery/anakhalal2007-8.png",
+      "images/gallery/anakhalal2007-9.png"
+    ]
   }
 ];
