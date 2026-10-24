@@ -656,5 +656,31 @@ const movies = [
       "images/gallery/thecatreturns2002-8.png",
       "images/gallery/thecatreturns2002-9.png"
     ]
+  },
+  {
+    id: "ready-or-not",
+    title: "Ready Or Not",
+    titleLogo: "images/logo/readyornot2019.png",
+    language: "English",
+    year: 2019,
+    poster: "images/posters/readyornot2019.png",
+    backdrop: "images/overlays/readyornot2019.png",
+    themeColor: "#5c2a14",
+    synopsis: "After the wedding ceremony of a young woman, her new in-laws force her to participate in a seemingly innocent game. Things soon turn bloody and sinister, revealing the sick rituals of the family.",
+    genres: ["Horror-Comedy", "Thriller", "Mystery"],
+    director: "Tyler Gillett, Matt Bettinelli-Olpin",
+    runtime: "95 min",
+    rating: 8.6,
+    gallery: [
+      "images/gallery/readyornot2019-1.png",
+      "images/gallery/readyornot2019-2.png",
+      "images/gallery/readyornot2019-3.png",
+      "images/gallery/readyornot2019-4.png",
+      "images/gallery/readyornot2019-5.png",
+      "images/gallery/readyornot2019-6.png",
+      "images/gallery/readyornot2019-7.png",
+      "images/gallery/readyornot2019-8.png",
+      "images/gallery/readyornot2019-9.png"
+    ]
   }
 ];
