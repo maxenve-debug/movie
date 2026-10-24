@@ -578,5 +578,31 @@ const movies = [
       "images/gallery/jennifersbody2009-8.png",
       "images/gallery/jennifersbody2009-9.png"
     ]
+  },
+  {
+    id: "roald-dahls-matilda-the-musical",
+    title: "Roald Dahl's Matilda the Musical",
+    titleLogo: "images/logo/roalddahlsmatildathemusical2022.png",
+    language: "English",
+    year: 2022,
+    poster: "images/posters/roalddahlsmatildathemusical2022.png",
+    backdrop: "images/overlays/roalddahlsmatildathemusical2022.png",
+    themeColor: "#99a5a5",
+    synopsis: "An extraordinary young girl discovers her superpower and summons the remarkable courage, against all odds, to help others change their stories, whilst also taking charge of her own destiny.",
+    genres: ["Family", "Comedy", "Fantasy"],
+    director: "Matthew Warchus",
+    runtime: "117 min",
+    rating: 9.6,
+    gallery: [
+      "images/gallery/roalddahlsmatildathemusical2022-1.png",
+      "images/gallery/roalddahlsmatildathemusical2022-2.png",
+      "images/gallery/roalddahlsmatildathemusical2022-3.png",
+      "images/gallery/roalddahlsmatildathemusical2022-4.png",
+      "images/gallery/roalddahlsmatildathemusical2022-5.png",
+      "images/gallery/roalddahlsmatildathemusical2022-6.png",
+      "images/gallery/roalddahlsmatildathemusical2022-7.png",
+      "images/gallery/roalddahlsmatildathemusical2022-8.png",
+      "images/gallery/roalddahlsmatildathemusical2022-9.png"
+    ]
   }
 ];
