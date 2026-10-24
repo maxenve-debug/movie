@@ -630,5 +630,31 @@ const movies = [
       "images/gallery/anakhalal2007-8.png",
       "images/gallery/anakhalal2007-9.png"
     ]
+  },
+  {
+    id: "the-cat-returns",
+    title: "The Cat Returns",
+    titleLogo: "images/logo/thecatreturns2002.png",
+    language: "Japanese",
+    year: 2002,
+    poster: "images/posters/thecatreturns2002.png",
+    backdrop: "images/overlays/thecatreturns2002.png",
+    themeColor: "#719075",
+    synopsis: "Haru, who can communicate with cats, saves Lune, the prince of the Cat Kingdom, and unknowingly accepts his hand in marriage. However, after she enters the kingdom, she starts turning into a cat.",
+    genres: ["Adventure", "Fantasy", "Family"],
+    director: "Hiroyuki Morita",
+    runtime: "75 min",
+    rating: 7.9,
+    gallery: [
+      "images/gallery/thecatreturns2002-1.png",
+      "images/gallery/thecatreturns2002-2.png",
+      "images/gallery/thecatreturns2002-3.png",
+      "images/gallery/thecatreturns2002-4.png",
+      "images/gallery/thecatreturns2002-5.png",
+      "images/gallery/thecatreturns2002-6.png",
+      "images/gallery/thecatreturns2002-7.png",
+      "images/gallery/thecatreturns2002-8.png",
+      "images/gallery/thecatreturns2002-9.png"
+    ]
   }
 ];
