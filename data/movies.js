@@ -682,5 +682,31 @@ const movies = [
       "images/gallery/readyornot2019-8.png",
       "images/gallery/readyornot2019-9.png"
     ]
+  },
+  {
+    id: "the-secret-life-of-walter-mitty",
+    title: "The Secret Life of Walter Mitty",
+    titleLogo: "images/logo/thesecretlifeofwaltermitty2013.png",
+    language: "English",
+    year: 2013,
+    poster: "images/posters/thesecretlifeofwaltermitty2013.png",
+    backdrop: "images/overlays/thesecretlifeofwaltermitty2013.png",
+    themeColor: "#598495",
+    synopsis: "A timid magazine photo manager who lives life vicariously through daydreams embarks on a true-life adventure when a negative goes missing.",
+    genres: ["Adventure", "Drama", "Fantasy", "Comedy"],
+    director: "Ben Stiller",
+    runtime: "114 min",
+    rating: 9.7,
+    gallery: [
+      "images/gallery/thesecretlifeofwaltermitty2013-1.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-2.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-3.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-4.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-5.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-6.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-7.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-8.png",
+      "images/gallery/thesecretlifeofwaltermitty2013-9.png"
+    ]
   }
 ];
