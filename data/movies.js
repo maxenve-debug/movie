@@ -708,5 +708,31 @@ const movies = [
       "images/gallery/thesecretlifeofwaltermitty2013-8.png",
       "images/gallery/thesecretlifeofwaltermitty2013-9.png"
     ]
+  },
+  {
+    id: "adolescence",
+    title: "Adolescence",
+    titleLogo: "images/logo/adolescence2025.png",
+    language: "English",
+    year: 2025,
+    poster: "images/posters/adolescence2025.png",
+    backdrop: "images/overlays/adolescence2025.png",
+    themeColor: "#09303b",
+    synopsis: "A family's world turns upside down when 13-year-old Jamie Miller is arrested for murdering a schoolmate: the charges against their son force them to confront every parent's worst nightmare.",
+    genres: ["Psychological", "Crime", "Drama"],
+    creator: "Jack Thorne, Stephen Graham",
+    runtime: "4 Episodes",
+    rating: 9.5,
+    gallery: [
+      "images/gallery/adolescence2025-1.png",
+      "images/gallery/adolescence2025-2.png",
+      "images/gallery/adolescence2025-3.png",
+      "images/gallery/adolescence2025-4.png",
+      "images/gallery/adolescence2025-5.png",
+      "images/gallery/adolescence2025-6.png",
+      "images/gallery/adolescence2025-7.png",
+      "images/gallery/adolescence2025-8.png",
+      "images/gallery/adolescence2025-9.png"
+    ]
   }
 ];
