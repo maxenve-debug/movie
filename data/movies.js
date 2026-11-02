@@ -734,5 +734,31 @@ const movies = [
       "images/gallery/adolescence2025-8.png",
       "images/gallery/adolescence2025-9.png"
     ]
+  },
+  {
+    id: "the-princess-diaries-2-royal-engagement",
+    title: "The Princess Diaries 2: Royal Engagement",
+    titleLogo: "images/logo/theprincessdiaries22004.png",
+    language: "English",
+    year: 2004,
+    poster: "images/posters/theprincessdiaries22004.png",
+    backdrop: "images/overlays/theprincessdiaries22004.png",
+    themeColor: "#09303b",
+    synopsis: "Princess Mia is in a fix when Viscount Mabrey, an egocentric nobleman, hinders her coronation stating that an unmarried woman cannot become a queen. However, Mia and her grandmother devise a plan.",
+    genres: ["Comedy", "Romance", "Drama"],
+    director: "Garry Marshall",
+    runtime: "113 minutes",
+    rating: 7.9,
+    gallery: [
+      "images/gallery/theprincessdiaries22004-1.png",
+      "images/gallery/theprincessdiaries22004-2.png",
+      "images/gallery/theprincessdiaries22004-3.png",
+      "images/gallery/theprincessdiaries22004-4.png",
+      "images/gallery/theprincessdiaries22004-5.png",
+      "images/gallery/theprincessdiaries22004-6.png",
+      "images/gallery/theprincessdiaries22004-7.png",
+      "images/gallery/theprincessdiaries22004-8.png",
+      "images/gallery/theprincessdiaries22004-9.png"
+    ]
   }
 ];
