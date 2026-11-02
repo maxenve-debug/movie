@@ -760,5 +760,31 @@ const movies = [
       "images/gallery/theprincessdiaries22004-8.png",
       "images/gallery/theprincessdiaries22004-9.png"
     ]
+  },
+  {
+    id: "dont-look-up",
+    title: "Don't Look Up",
+    titleLogo: "images/logo/dontlookup2021.png",
+    language: "English",
+    year: 2021,
+    poster: "images/posters/dontlookup2021.png",
+    backdrop: "images/overlays/dontlookup2021.png",
+    themeColor: "#9c4834",
+    synopsis: "Two low-level astronomers must go on a giant media tour to warn mankind of an approaching comet that will destroy planet Earth.",
+    genres: ["Black Comedy", "Political", "Satire"],
+    director: "Adam McKay",
+    runtime: "145 minutes",
+    rating: 6.6,
+    gallery: [
+      "images/gallery/dontlookup2021-1.png",
+      "images/gallery/dontlookup2021-2.png",
+      "images/gallery/dontlookup2021-3.png",
+      "images/gallery/dontlookup2021-4.png",
+      "images/gallery/dontlookup2021-5.png",
+      "images/gallery/dontlookup2021-6.png",
+      "images/gallery/dontlookup2021-7.png",
+      "images/gallery/dontlookup2021-8.png",
+      "images/gallery/dontlookup2021-9.png"
+    ]
   }
 ];
