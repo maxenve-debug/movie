@@ -786,5 +786,31 @@ const movies = [
       "images/gallery/dontlookup2021-8.png",
       "images/gallery/dontlookup2021-9.png"
     ]
+  },
+  {
+    id: "flavors-of-youth",
+    title: "Flavors of Youth",
+    titleLogo: "images/logo/flavorsofyouth2018.png",
+    language: "Japanese, Mandarin",
+    year: 2018,
+    poster: "images/posters/flavorsofyouth2018.png",
+    backdrop: "images/overlays/flavorsofyouth2018.png",
+    themeColor: "#7e7b98",
+    synopsis: "Three stories of youth from different cities in China: memories locked in a bowl of steaming noodles, a fading beauty discovering her way, and a bittersweet first love.",
+    genres: ["Drama", "Romance"],
+    director: "Yoshitaka Takeuchi, Li Haoling, Jiaoshou Yi Xiaoxing",
+    runtime: "75 minutes",
+    rating: 9.0,
+    gallery: [
+      "images/gallery/flavorsofyouth2018-1.png",
+      "images/gallery/flavorsofyouth2018-2.png",
+      "images/gallery/flavorsofyouth2018-3.png",
+      "images/gallery/flavorsofyouth2018-4.png",
+      "images/gallery/flavorsofyouth2018-5.png",
+      "images/gallery/flavorsofyouth2018-6.png",
+      "images/gallery/flavorsofyouth2018-7.png",
+      "images/gallery/flavorsofyouth2018-8.png",
+      "images/gallery/flavorsofyouth2018-9.png"
+    ]
   }
 ];
