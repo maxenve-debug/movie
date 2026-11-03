@@ -795,7 +795,7 @@ const movies = [
     year: 2018,
     poster: "images/posters/flavorsofyouth2018.png",
     backdrop: "images/overlays/flavorsofyouth2018.png",
-    themeColor: "#7e7b98",
+    themeColor: "#3d3c5b",
     synopsis: "Three stories of youth from different cities in China: memories locked in a bowl of steaming noodles, a fading beauty discovering her way, and a bittersweet first love.",
     genres: ["Drama", "Romance"],
     director: "Yoshitaka Takeuchi, Li Haoling, Jiaoshou Yi Xiaoxing",
