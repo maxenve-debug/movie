@@ -812,5 +812,31 @@ const movies = [
       "images/gallery/flavorsofyouth2018-8.png",
       "images/gallery/flavorsofyouth2018-9.png"
     ]
+  },
+  {
+    id: "spirited-away",
+    title: "Spirited Away",
+    titleLogo: "images/logo/spiritedaway2001.png",
+    language: "Japanese",
+    year: 2001,
+    poster: "images/posters/spiritedaway2001.png",
+    backdrop: "images/overlays/spiritedaway2001.png",
+    themeColor: "#591c21",
+    synopsis: "Ten-year-old Chihiro and her parents end up at an abandoned amusement park inhabited by supernatural beings. Soon, she learns that she must work to free her parents who have been turned into pigs.",
+    genres: ["Fantasy", "Adventure"],
+    director: "Hayao Miyazaki",
+    runtime: "125 minutes",
+    rating: 8.3,
+    gallery: [
+      "images/gallery/spiritedaway2001-1.png",
+      "images/gallery/spiritedaway2001-2.png",
+      "images/gallery/spiritedaway2001-3.png",
+      "images/gallery/spiritedaway2001-4.png",
+      "images/gallery/spiritedaway2001-5.png",
+      "images/gallery/spiritedaway2001-6.png",
+      "images/gallery/spiritedaway2001-7.png",
+      "images/gallery/spiritedaway2001-8.png",
+      "images/gallery/spiritedaway2001-9.png"
+    ]
   }
 ];
