@@ -838,5 +838,31 @@ const movies = [
       "images/gallery/spiritedaway2001-8.png",
       "images/gallery/spiritedaway2001-9.png"
     ]
+  },
+  {
+    id: "the-royal-tenenbaums",
+    title: "The Royal Tenenbaums",
+    titleLogo: "images/logo/theroyaltenenbaums2001.png",
+    language: "English",
+    year: 2001,
+    poster: "images/posters/theroyaltenenbaums2001.png",
+    backdrop: "images/overlays/theroyaltenenbaums2001.png",
+    themeColor: "#822c09",
+    synopsis: "The Tenenbaums are a talented family of former child prodigies. However, they are not on the best of terms. When their ailing father summons them all, they find themselves under one roof.",
+    genres: ["Drama", "Comedy"],
+    director: "Wes Anderson",
+    runtime: "109 minutes",
+    rating: 8.7,
+    gallery: [
+      "images/gallery/theroyaltenenbaums2001-1.png",
+      "images/gallery/theroyaltenenbaums2001-2.png",
+      "images/gallery/theroyaltenenbaums2001-3.png",
+      "images/gallery/theroyaltenenbaums2001-4.png",
+      "images/gallery/theroyaltenenbaums2001-5.png",
+      "images/gallery/theroyaltenenbaums2001-6.png",
+      "images/gallery/theroyaltenenbaums2001-7.png",
+      "images/gallery/theroyaltenenbaums2001-8.png",
+      "images/gallery/theroyaltenenbaums2001-9.png"
+    ]
   }
 ];
