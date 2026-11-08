@@ -864,5 +864,31 @@ const movies = [
       "images/gallery/theroyaltenenbaums2001-8.png",
       "images/gallery/theroyaltenenbaums2001-9.png"
     ]
+  },
+  {
+    id: "scream",
+    title: "Scream",
+    titleLogo: "images/logo/scream1996.png",
+    language: "English",
+    year: 1996,
+    poster: "images/posters/scream1996.png",
+    backdrop: "images/overlays/scream1996.png",
+    themeColor: "#33110b",
+    synopsis: "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+    genres: ["Horror", "Mystery", "Crime"],
+    director: "Wes Craven",
+    runtime: "112 minutes",
+    rating: 8.0,
+    gallery: [
+      "images/gallery/scream1996-1.png",
+      "images/gallery/scream1996-2.png",
+      "images/gallery/scream1996-3.png",
+      "images/gallery/scream1996-4.png",
+      "images/gallery/scream1996-5.png",
+      "images/gallery/scream1996-6.png",
+      "images/gallery/scream1996-7.png",
+      "images/gallery/scream1996-8.png",
+      "images/gallery/scream1996-9.png"
+    ]
   }
 ];
