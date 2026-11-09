@@ -890,5 +890,31 @@ const movies = [
       "images/gallery/scream1996-8.png",
       "images/gallery/scream1996-9.png"
     ]
+  },
+  {
+    id: "crash-landing-on-you",
+    title: "Crash Landing On You",
+    titleLogo: "images/logo/cloy2019.png",
+    language: "Korean",
+    year: 2019,
+    poster: "images/posters/cloy2019.png",
+    backdrop: "images/overlays/cloy2019.png",
+    themeColor: "#5f3e2d",
+    synopsis: "A paragliding mishap drops a South Korean heiress in North Korea - and into the life of an army officer, who decides he will help her hide.",
+    genres: ["Romantic", "Drama", "Comedy"],
+    creator: "Lee Jeong-hyo, Park Ji-eun",
+    runtime: "16 Episodes",
+    rating: 6.8,
+    gallery: [
+      "images/gallery/cloy2019-1.png",
+      "images/gallery/cloy2019-2.png",
+      "images/gallery/cloy2019-3.png",
+      "images/gallery/cloy2019-4.png",
+      "images/gallery/cloy2019-5.png",
+      "images/gallery/cloy2019-6.png",
+      "images/gallery/cloy2019-7.png",
+      "images/gallery/cloy2019-8.png",
+      "images/gallery/cloy2019-9.png"
+    ]
   }
 ];
