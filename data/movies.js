@@ -916,5 +916,31 @@ const movies = [
       "images/gallery/cloy2019-8.png",
       "images/gallery/cloy2019-9.png"
     ]
+  },
+  {
+    id: "modern-family",
+    title: "Modern Family",
+    titleLogo: "images/logo/modernfamily2009.png",
+    language: "English",
+    year: 2009,
+    poster: "images/posters/modernfamily2009.png",
+    backdrop: "images/overlays/modernfamily2009.png",
+    themeColor: "#575e64",
+    synopsis: "Three modern-day families from California try to deal with their kids, quirky spouses and jobs in their own unique ways, often falling into hilarious situations.",
+    genres: ["Sitcom", "Mockumentary"],
+    creator: "Christopher Lloyd, Steven Levitan",
+    runtime: "11 Seasons",
+    rating: 9.7,
+    gallery: [
+      "images/gallery/modernfamily2009-1.png",
+      "images/gallery/modernfamily2009-2.png",
+      "images/gallery/modernfamily2009-3.png",
+      "images/gallery/modernfamily2009-4.png",
+      "images/gallery/modernfamily2009-5.png",
+      "images/gallery/modernfamily2009-6.png",
+      "images/gallery/modernfamily2009-7.png",
+      "images/gallery/modernfamily2009-8.png",
+      "images/gallery/modernfamily2009-9.png"
+    ]
   }
 ];
