@@ -942,5 +942,31 @@ const movies = [
       "images/gallery/modernfamily2009-8.png",
       "images/gallery/modernfamily2009-9.png"
     ]
+  },
+  {
+    id: "upin-ipin-keris-siamang-tunggal",
+    title: "Upin & Ipin: Keris Siamang Tunggal",
+    titleLogo: "images/logo/upkst2019.png",
+    language: "Malay",
+    year: 2019,
+    poster: "images/posters/upkst2019.png",
+    backdrop: "images/overlays/upkst2019.png",
+    themeColor: "#22312a",
+    synopsis: "Joined by their friends, Upin and Ipin embark on a journey to protect the Kingdom of Inderaloka from an evil ruler after they discover a mystical dagger.",
+    genres: ["Adventure", "Fantasy"],
+    director: "Adam Amiruddin, Ahmad Razuri Roseli, Syed Nurfaiz Khalid Syed Ibrahim",
+    runtime: "100 minutes",
+    rating: 8.7,
+    gallery: [
+      "images/gallery/upkst2019-1.png",
+      "images/gallery/upkst2019-2.png",
+      "images/gallery/upkst2019-3.png",
+      "images/gallery/upkst2019-4.png",
+      "images/gallery/upkst2019-5.png",
+      "images/gallery/upkst2019-6.png",
+      "images/gallery/upkst2019-7.png",
+      "images/gallery/upkst2019-8.png",
+      "images/gallery/upkst2019-9.png"
+    ]
   }
 ];
