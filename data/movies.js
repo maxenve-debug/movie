@@ -977,7 +977,7 @@ const movies = [
     year: 2019,
     poster: "images/posters/afterlife2019.png",
     backdrop: "images/overlays/afterlife2019.png",
-    themeColor: "#92bcbb",
+    themeColor: "#b0a06f",
     synopsis: "Tony had a perfect life -- until his wife Lisa died. After that tragic event, the formerly nice guy changed. After contemplating taking his life, Tony decides he would rather live long enough to punish the world by saying and doing whatever he likes.",
     genres: ["Drama", "Dark Comedy"],
     creator: "Ricky Gervais",
