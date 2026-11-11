@@ -968,5 +968,31 @@ const movies = [
       "images/gallery/upkst2019-8.png",
       "images/gallery/upkst2019-9.png"
     ]
+  },
+  {
+    id: "after-life",
+    title: "After Life",
+    titleLogo: "images/logo/afterlife2019.png",
+    language: "English",
+    year: 2019,
+    poster: "images/posters/afterlife2019.png",
+    backdrop: "images/overlays/afterlife2019.png",
+    themeColor: "#92bcbb",
+    synopsis: "Tony had a perfect life -- until his wife Lisa died. After that tragic event, the formerly nice guy changed. After contemplating taking his life, Tony decides he would rather live long enough to punish the world by saying and doing whatever he likes.",
+    genres: ["Drama", "Dark Comedy"],
+    creator: "Ricky Gervais",
+    runtime: "3 Seasons",
+    rating: 8.2,
+    gallery: [
+      "images/gallery/afterlife2019-1.png",
+      "images/gallery/afterlife2019-2.png",
+      "images/gallery/afterlife2019-3.png",
+      "images/gallery/afterlife2019-4.png",
+      "images/gallery/afterlife2019-5.png",
+      "images/gallery/afterlife2019-6.png",
+      "images/gallery/afterlife2019-7.png",
+      "images/gallery/afterlife2019-8.png",
+      "images/gallery/afterlife2019-9.png"
+    ]
   }
 ];
