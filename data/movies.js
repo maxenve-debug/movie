@@ -994,5 +994,31 @@ const movies = [
       "images/gallery/afterlife2019-8.png",
       "images/gallery/afterlife2019-9.png"
     ]
+  },
+  {
+    id: "get-out",
+    title: "Get Out",
+    titleLogo: "images/logo/getout2017.png",
+    language: "English",
+    year: 2017,
+    poster: "images/posters/getout2017.png",
+    backdrop: "images/overlays/getout2017.png",
+    themeColor: "#7e7a5d",
+    synopsis: "Chris, an African-American man, decides to visit his Caucasian girlfriend's parents during a weekend getaway. Although they seem normal at first, he is not prepared to experience the horrors ahead.",
+    genres: ["Horror", "Mystery", "Thriller"],
+    director: "Jordan Peele",
+    runtime: "104 minutes",
+    rating: 8.6,
+    gallery: [
+      "images/gallery/getout2017-1.png",
+      "images/gallery/getout2017-2.png",
+      "images/gallery/getout2017-3.png",
+      "images/gallery/getout2017-4.png",
+      "images/gallery/getout2017-5.png",
+      "images/gallery/getout2017-6.png",
+      "images/gallery/getout2017-7.png",
+      "images/gallery/getout2017-8.png",
+      "images/gallery/getout2017-9.png"
+    ]
   }
 ];
