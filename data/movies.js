@@ -1046,5 +1046,31 @@ const movies = [
       "images/gallery/frozen2013-8.png",
       "images/gallery/frozen2013-9.png"
     ]
+  },
+  {
+    id: "black-mirror",
+    title: "Black Mirror",
+    titleLogo: "images/logo/blackmirror2011.png",
+    language: "English",
+    year: 2011,
+    poster: "images/posters/blackmirror2011.png",
+    backdrop: "images/overlays/blackmirror2011.png",
+    themeColor: "#000600",
+    synopsis: "In an abstrusely dystopian future, several individuals grapple with the manipulative effects of cutting edge technology in their personal lives and behaviours.",
+    genres: ["Cyber Thriller", "Dystopian Sci-Fi", "Psychological Drama"],
+    creator: "Charlie Brooker",
+    runtime: "7 Seasons",
+    rating: 9.7,
+    gallery: [
+      "images/gallery/blackmirror2011-1.png",
+      "images/gallery/blackmirror2011-2.png",
+      "images/gallery/blackmirror2011-3.png",
+      "images/gallery/blackmirror2011-4.png",
+      "images/gallery/blackmirror2011-5.png",
+      "images/gallery/blackmirror2011-6.png",
+      "images/gallery/blackmirror2011-7.png",
+      "images/gallery/blackmirror2011-8.png",
+      "images/gallery/blackmirror2011-9.png"
+    ]
   }
 ];
