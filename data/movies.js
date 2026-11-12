@@ -1072,5 +1072,31 @@ const movies = [
       "images/gallery/blackmirror2011-8.png",
       "images/gallery/blackmirror2011-9.png"
     ]
+  },
+  {
+    id: "29-februari",
+    title: "29 Februari",
+    titleLogo: "images/logo/29februari2012.png",
+    language: "Malay",
+    year: 2012,
+    poster: "images/posters/29februari2012.png",
+    backdrop: "images/overlays/29februari2012.png",
+    themeColor: "#a35433",
+    synopsis: "A man born on the leap day of February 29 ages only one year in every four years. Because of this unique trait, he has lived through many historical periods of Malaysia; from the colonial years to the Japanese invasion and Independence.",
+    genres: ["Fantasy", "Drama", "Romance"],
+    director: "Edry Abdul Halim",
+    runtime: "98 minutes",
+    rating: 8.5,
+    gallery: [
+      "images/gallery/29februari2012-1.png",
+      "images/gallery/29februari2012-2.png",
+      "images/gallery/29februari2012-3.png",
+      "images/gallery/29februari2012-4.png",
+      "images/gallery/29februari2012-5.png",
+      "images/gallery/29februari2012-6.png",
+      "images/gallery/29februari2012-7.png",
+      "images/gallery/29februari2012-8.png",
+      "images/gallery/29februari2012-9.png"
+    ]
   }
 ];
