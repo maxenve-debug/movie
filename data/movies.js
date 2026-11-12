@@ -1098,5 +1098,31 @@ const movies = [
       "images/gallery/29februari2012-8.png",
       "images/gallery/29februari2012-9.png"
     ]
+  },
+   {
+    id: "polis-evo",
+    title: "Polis Evo",
+    titleLogo: "images/logo/polisevo2015.png",
+    language: "Malay",
+    year: 2015,
+    poster: "images/posters/polisevo2015.png",
+    backdrop: "images/overlays/polisevo2015.png",
+    themeColor: "#463322",
+    synopsis: "Big city cop and small-town-big-cop must learn to work together in order to take down Malaysia's biggest drug lord.",
+    genres: ["Action", "Comedy", "Crime"],
+    director: "Ghaz Abu Bakar",
+    runtime: "128 minutes",
+    rating: 8.8,
+    gallery: [
+      "images/gallery/polisevo2015-1.png",
+      "images/gallery/polisevo2015-2.png",
+      "images/gallery/polisevo2015-3.png",
+      "images/gallery/polisevo2015-4.png",
+      "images/gallery/polisevo2015-5.png",
+      "images/gallery/polisevo2015-6.png",
+      "images/gallery/polisevo2015-7.png",
+      "images/gallery/polisevo2015-8.png",
+      "images/gallery/polisevo2015-9.png"
+    ]
   }
 ];
