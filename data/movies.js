@@ -1020,5 +1020,31 @@ const movies = [
       "images/gallery/getout2017-8.png",
       "images/gallery/getout2017-9.png"
     ]
+  },
+  {
+    id: "frozen",
+    title: "Frozen",
+    titleLogo: "images/logo/frozen2013.png",
+    language: "English",
+    year: 2013,
+    poster: "images/posters/frozen2013.png",
+    backdrop: "images/overlays/frozen2013.png",
+    themeColor: "#3b0e15",
+    synopsis: "Snow Queen Elsa inadvertently uses her power to make her kingdom experience constant wintriness. Her sister Anna teams up with mountaineer Kristoff and his reindeer to demolish the snowy spell.",
+    genres: ["Family", "Musical"],
+    director: "Jennifer Lee, Chris Buck",
+    runtime: "102 minutes",
+    rating: 8.7,
+    gallery: [
+      "images/gallery/frozen2013-1.png",
+      "images/gallery/frozen2013-2.png",
+      "images/gallery/frozen2013-3.png",
+      "images/gallery/frozen2013-4.png",
+      "images/gallery/frozen2013-5.png",
+      "images/gallery/frozen2013-6.png",
+      "images/gallery/frozen2013-7.png",
+      "images/gallery/frozen2013-8.png",
+      "images/gallery/frozen2013-9.png"
+    ]
   }
 ];
