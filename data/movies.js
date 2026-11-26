@@ -1124,5 +1124,31 @@ const movies = [
       "images/gallery/polisevo2015-8.png",
       "images/gallery/polisevo2015-9.png"
     ]
+  },
+  {
+    id: "eternal-sunshine-of-the-spotless-mind",
+    title: "Eternal Sunshine of the Spotless Mind",
+    titleLogo: "images/logo/esotsm2004.png",
+    language: "English",
+    year: 2004,
+    poster: "images/posters/esotsm2004.png",
+    backdrop: "images/overlays/esotsm2004.png",
+    themeColor: "#4d5e6c",
+    synopsis: "Joel finds out that his girlfriend, Clementine, has had him erased from her memories and decides to do the same. During the time of the clinical procedure, he realizes that he still loves her deeply.",
+    genres: ["Romance", "Sci-Fi"],
+    director: "Michel Gondry",
+    runtime: "108 minutes",
+    rating: 7.5,
+    gallery: [
+      "images/gallery/esotsm2004-1.png",
+      "images/gallery/esotsm2004-2.png",
+      "images/gallery/esotsm2004-3.png",
+      "images/gallery/esotsm2004-4.png",
+      "images/gallery/esotsm2004-5.png",
+      "images/gallery/esotsm2004-6.png",
+      "images/gallery/esotsm2004-7.png",
+      "images/gallery/esotsm2004-8.png",
+      "images/gallery/esotsm2004-9.png"
+    ]
   }
 ];
