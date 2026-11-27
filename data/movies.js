@@ -1150,5 +1150,31 @@ const movies = [
       "images/gallery/esotsm2004-8.png",
       "images/gallery/esotsm2004-9.png"
     ]
+  },
+  {
+    id: "tangled",
+    title: "Tangled",
+    titleLogo: "images/logo/tangled2010.png",
+    language: "English",
+    year: 2010,
+    poster: "images/posters/tangled2010.png",
+    backdrop: "images/overlays/tangled2010.png",
+    themeColor: "#7f2e60",
+    synopsis: "Rapunzel, an innocent, young girl, is locked up by her overly protective mother. Her wish to escape into the world outside finally comes true when she meets the good-hearted thief, Flynn.",
+    genres: ["Family", "Adventure", "Musical"],
+    director: "Nathan Greno, Byron Howard",
+    runtime: "100 minutes",
+    rating: 8.9,
+    gallery: [
+      "images/gallery/tangled2010-1.png",
+      "images/gallery/tangled2010-2.png",
+      "images/gallery/tangled2010-3.png",
+      "images/gallery/tangled2010-4.png",
+      "images/gallery/tangled2010-5.png",
+      "images/gallery/tangled2010-6.png",
+      "images/gallery/tangled2010-7.png",
+      "images/gallery/tangled2010-8.png",
+      "images/gallery/tangled2010-9.png"
+    ]
   }
 ];
